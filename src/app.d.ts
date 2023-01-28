@@ -6,6 +6,13 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+		declare interface Badge {
+			name: string;
+			slug: string;
+			logoColor?: string;
+			loved?: boolean;
+			color: string;
+		}
 	}
 }
 
