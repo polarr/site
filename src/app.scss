@@ -1,5 +1,8 @@
-@import "@fontsource/inter/index.css";
+@import "@fontsource/inter/variable-full.css";
 
 * {
-    font-family: 'Inter'
+    box-sizing: border-box
+}
+body {
+    font-family: "InterVariable", sans-serif;
 }
