@@ -103,6 +103,14 @@
 			</Li>
 			<CircleSolid class="text-gray-300 dark:text-gray-500" size="6" />
 			<Li>
+				Hobbies
+			</Li>
+			<CircleSolid class="text-gray-300 dark:text-gray-500" size="6" />
+			<Li>
+				FAQs
+			</Li>
+			<!--
+			<Li>
 				<A href="/faq#hobbies" class="hover:underline" textColor="text-gray-700 dark:text-white"
 					>Hobbies</A
 				>
@@ -111,6 +119,7 @@
 			<Li>
 				<A href="/faq" class="hover:underline" textColor="text-gray-700 dark:text-white">FAQs</A>
 			</Li>
+			-->
 		</List>
 	</div>
 </div>
