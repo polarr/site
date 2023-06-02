@@ -31,7 +31,7 @@
 		},
 		{
 			title: 'OMC First Place',
-			date: '2023 April',
+			date: '2023 March',
 			icon: MedalSolid,
 			description:
 				'Glad to have participated in the first year it ran. Did you know OMC all started from a half-joking battle declaration email to the math club of a different school?'
@@ -105,6 +105,6 @@
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		Some notable achievements.
 	</P>
-
+	<div id="achievements" />
     <Achievements {achievements} />
 </div>
