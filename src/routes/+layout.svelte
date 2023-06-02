@@ -36,47 +36,39 @@
 		<NavUl {hidden}>
 			<NavLi href="/about">About</NavLi>
 			<NavLi href="/dev">Dev</NavLi>
-			<NavLi href="/projects">Research</NavLi>
+			<NavLi href="/research">Research</NavLi>
 			<NavLi href="/projects">Projects</NavLi>
 			<NavLi href="/blog">Blog</NavLi>
-			<NavLi href="/resume">Resume</NavLi>
 		</NavUl>
 	</Navbar>
 	<div class="grow overflow-scroll">
-		<main class="min-h-fit">
+		<main class="flex flex-col p-4 items-center w-full min-h-full h-fit">
 			<slot />
 		</main>
 		<Footer class="p-6">
-			<FooterCopyright href="/" by="Polarity" copyrightMessage="Last Updated 2023-1-27" />
+			<span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+				© 2020-{new Date().getFullYear()} • Last Updated 2023-2-12
+			</span>
 			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-				<FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+				<FooterIcon href="/redirect/github" class="text-gray-400 hover:text-gray-900">
 					<GithubBrand size="20"/>
 				</FooterIcon>
-				<FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+				<FooterIcon href="/redirect/youtube" class="text-gray-400 hover:text-gray-900">
 					<YoutubeBrand size="20"/>
 				</FooterIcon>
-				<FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+				<FooterIcon href="/redirect/instagram" class="text-gray-400 hover:text-gray-900">
+					<InstagramBrand size="20"/>
+				</FooterIcon>
+				<FooterIcon href="/redirect/discord" class="text-gray-400 hover:text-gray-900">
 					<DiscordBrand size="20"/>
 				</FooterIcon>
-				<FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+				<FooterIcon href="/redirect/steam" class="text-gray-400 hover:text-gray-900">
 					<SteamBrand size="20"/>
 				</FooterIcon>
-				<FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+				<FooterIcon href="/redirect/email" class="text-gray-400 hover:text-gray-900">
 					<EnvelopeSolid size="20"/>
 				</FooterIcon>
 			</div>
 		</Footer>
 	</div>
 </div>
-
-<style>
-	main {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
-		padding: 1rem;
-	}
-</style>
