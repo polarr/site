@@ -14,7 +14,28 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+            handleHttpError: ({ path, referrer, message }) => {
+				const redirects = [
+					'/redirect/github',
+					'/redirect/youtube',
+					'/redirect/instagram',
+					'/redirect/discord',
+					'/redirect/steam',
+					'/redirect/email',
+					'/redirect/shadertoy',
+				];
+
+                // ignore deliberate link to redirects
+                if (redirects.includes(path)) {
+                    return;
+                }
+
+                // otherwise fail the build
+                throw new Error(message);
+            }
+        }
 	}
 };
 
