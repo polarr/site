@@ -1,19 +1,28 @@
 <script lang="ts">
-	import { Avatar, Badge, Button, ButtonGroup, Tooltip } from 'flowbite-svelte';
+	import { Avatar, Badge, Button, ButtonGroup, Li, List, Tooltip } from 'flowbite-svelte';
 
 	import { Heading, P, A, Span, Hr } from 'flowbite-svelte';
 
-	import { GithubBrand, DiscordBrand, YoutubeBrand } from 'svelte-awesome-icons';
+	import {
+		GithubBrand,
+		DiscordBrand,
+		YoutubeBrand,
+		CircleSolid,
+		InstagramBrand,
+		EnvelopeSolid,
+		SteamBrand,
+		ArrowUpRightFromSquareSolid
+	} from 'svelte-awesome-icons';
 
-	const aliases = ['TropicoMango', 'Polarity'];
+	const aliases = ['TropicoMango', 'Mango', '1egend'];
 </script>
 
-<div class="h-full flex flex-col justify-center items-center">
+<div class="my-auto flex flex-col justify-center items-center">
 	<div class="flex items-center space-x-4">
 		<Avatar src="/mango_v3.svg" rounded size="lg" />
 		<div class="space-y-1 font-medium dark:text-white">
 			<div class="flex items-center space-x-2">
-				<Heading tag="h5">Mango</Heading>
+				<Heading tag="h5">Charles Ran</Heading>
 				<Badge border color="dark">aka</Badge>
 				<Tooltip>
 					Also known as
@@ -22,40 +31,86 @@
 					{/each}
 				</Tooltip>
 			</div>
-			<div class="text-sm text-gray-500 dark:text-gray-400">@mango</div>
+			<div class="text-sm text-gray-500 dark:text-gray-400">@polarity</div>
 		</div>
 	</div>
 
 	<ButtonGroup size="xs" class="m-4">
-		<Button>
+		<Button href="/redirect/github">
 			<GithubBrand size="15" />
 		</Button>
-		<Button>
+		<Button href="/redirect/discord">
+			<DiscordBrand size="15" />
+		</Button>
+		<Button href="/redirect/youtube">
 			<YoutubeBrand size="15" />
 		</Button>
-		<Button>
-			<DiscordBrand size="15" />
+		<Button href="/redirect/instagram">
+			<InstagramBrand size="15" />
+		</Button>
+		<Button href="/redirect/steam">
+			<SteamBrand size="15" />
+		</Button>
+		<Button href="/redirect/email">
+			<EnvelopeSolid size="15" />
 		</Button>
 	</ButtonGroup>
 
 	<div class="max-w-2xl">
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I'm
-			<Span class="font-black" gradient>Mango</Span>, a
-			<A href="/dev"><Span underline>Software Engineer</Span></A>
+			<Span class="font-black" gradient>Polarity</Span>, a high school student interested in
+			<A href="/dev"><Span underline>Software</Span></A>
 			and
-			<A href="/research"><Span underline>Math enthusiast</Span></A> residing in Canada. I mainly focus on
+			<A href="/research"><Span underline>Math</Span></A> who resides in Canada. I mainly focus on
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">
 				Fullstack Web Development
 			</Span>
 			but also occassionally dabble in Computer Graphics and Game Development. I also participate in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">Math Olympiads</Span>
-			and Competitive Programming.
+			and Competitive Programming. I founded <Span underline>Math et al</Span>, a nonprofit
+			organization hosting events, contests, and providing platforms and resources to promote the
+			sciences.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I enjoy sports, listening to music, video games, and reading manga and light novels in my free
 			time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
+
+		<List
+			tag="ul"
+			list="none"
+			ulClass="flex flex-wrap justify-center items-center mb-6 gap-2 md:gap-4"
+		>
+			<Li>
+				<A
+					href="https://mathetal.org"
+					textColor="text-gray-700 dark:text-white"
+					aClass="inline-flex items-center hover:underline"
+				>
+					Math et al
+					<ArrowUpRightFromSquareSolid class="ml-2" size="16" />
+				</A>
+			</Li>
+			<CircleSolid class="text-gray-300 dark:text-gray-500" size="6" />
+			<Li>
+				<A
+					href="/research#achievements"
+					class="hover:underline"
+					textColor="text-gray-700 dark:text-white">Contest Achievements</A
+				>
+			</Li>
+			<CircleSolid class="text-gray-300 dark:text-gray-500" size="6" />
+			<Li>
+				<A href="/faq#hobbies" class="hover:underline" textColor="text-gray-700 dark:text-white"
+					>Hobbies</A
+				>
+			</Li>
+			<CircleSolid class="text-gray-300 dark:text-gray-500" size="6" />
+			<Li>
+				<A href="/faq" class="hover:underline" textColor="text-gray-700 dark:text-white">FAQs</A>
+			</Li>
+		</List>
 	</div>
 </div>
