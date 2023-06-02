@@ -393,7 +393,7 @@
             <BadgeList badges={frontend} />
         </div>
     </TabItem>
-    <TabItem>
+    <TabItem open>
         <div slot="title" class="flex items-center gap-2">
             <ScrewdriverWrenchSolid size="16" />
             Tools
@@ -402,7 +402,7 @@
             <BadgeList badges={tools} />
         </div>
     </TabItem>
-    <TabItem open>
+    <TabItem>
         <div slot="title" class="flex items-center gap-2">
             <ServerSolid size="16" />
             Backend
