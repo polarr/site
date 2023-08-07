@@ -30,7 +30,7 @@
 			>render cool <A href="/redirect/shadertoy">shaders</A></Span
 		> with OpenGL. I can implement common rasterization, raytracing and raymarching algorithms as well
 		as shadows and ambient occlusion, but there's still a lot for me to learn. I've also done some game
-		development with p5.js and pygame.
+		development with p5.js and pygame. I'm currently working on from-scratch physics and rendering engine optimized in rust.
 	</P>
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Technologies</Heading>
