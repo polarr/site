@@ -1,6 +1,6 @@
 import { error, redirect } from '@sveltejs/kit';
 
-const redirectMap = {
+const redirectMap: {[key: string]: string} = {
     'github': 'https://github.com/polarr',
     'youtube': 'https://www.youtube.com/channel/UClZN6f71XImxoznqJ4jPknw',
     'instagram': 'https://www.instagram.com/tropicomango/',
