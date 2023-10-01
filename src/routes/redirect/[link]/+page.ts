@@ -7,7 +7,8 @@ const redirectMap: {[key: string]: string} = {
     'discord': 'discord://-/users/365886855469727745',
     'steam': 'https://steamcommunity.com/id/tropicopineappo/',
     'email': 'mailto:polarity@polarity.sh',
-    'shadertoy': 'https://www.shadertoy.com/user/IAmLegend'
+    'shadertoy': 'https://www.shadertoy.com/user/IAmLegend',
+    'resume': 'https://docs.google.com/document/d/1LyU9puk-V5XDCpSOV4h9Sq3ZsncYoosvmCpyz6IbL-o/edit?usp=sharing'
 };
 
 export function load({ params }){
