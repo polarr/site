@@ -39,6 +39,7 @@
 			<NavLi href="/research">Research</NavLi>
 			<NavLi href="/projects">Projects</NavLi>
 			<NavLi href="/blog">Blog</NavLi>
+			<NavLi href="/redirect/resume">Resume</NavLi>
 		</NavUl>
 	</Navbar>
 	<div class="grow overflow-scroll">
