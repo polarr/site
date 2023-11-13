@@ -59,22 +59,21 @@
 	<div class="max-w-2xl">
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I'm
-			<Span class="font-black" gradient>Polarity</Span>, a high school student interested in
+			<Span class="font-black" gradient>Polarity</Span>, a Canadian high school student interested in
 			<A href="/dev"><Span underline>Software</Span></A>
 			and
-			<A href="/research"><Span underline>Math</Span></A> who resides in Canada. I mainly focus on
+			<A href="/research"><Span underline>Math</Span></A>. I specialize in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">
 				Fullstack Web Development
 			</Span>
-			but also occassionally dabble in Computer Graphics and Game Development. I also participate in
+			but also occassionally dabble in Computer Graphics, Game Development. I also participate in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">Math Olympiads</Span>
 			and Competitive Programming. I founded <Span underline>Math et al</Span>, a nonprofit
 			organization hosting events, contests, and providing platforms and resources to promote the
 			sciences.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			I enjoy sports, listening to music, video games, and reading manga and light novels in my free
-			time.
+			I enjoy sports, music, and video games in my free time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
 

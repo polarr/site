@@ -19,18 +19,15 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Software</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I have a lot of experience with <Span underline>Fullstack Web Development</Span>—
+		I have many years of experience with <Span underline>Fullstack Web Development</Span>, 
 		<span class="font-normal">
-			from frontend, UI and many rendering patterns, to APIs, servers and infrastructure, auth, cms,
+			from frontend—UI and many rendering patterns—to APIs, servers and infrastructure, auth, CMS,
 			many DB paradigms, production architecture design and more.
 		</span>
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
-		Other than that, I sometimes like to <Span
-			>render cool <A href="/redirect/shadertoy">shaders</A></Span
-		> with OpenGL. I can implement common rasterization, raytracing and raymarching algorithms as well
-		as shadows and ambient occlusion, but there's still a lot for me to learn. I've also done some game
-		development with p5.js and pygame. I'm currently working on from-scratch physics and rendering engine optimized in rust.
+		I sometimes like to <Span>render cool <A href="/redirect/shadertoy">shaders</A></Span
+		> with OpenGL. I've also done game development with p5.js and pygame.
 	</P>
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Technologies</Heading>
@@ -43,7 +40,7 @@
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Projects</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I'm currently working on <A href="https://voly.mathetal.org">VOLY</A>, a platform to host
-		multiplayer contest math practice, and <A href="https://vodb.mathetal.org">VODB</A>, a massive
+		multiplayer contest math practice built upon <A href="https://vodb.mathetal.org">VODB</A>, a massive
 		database of contest problems.
 
 		<A
