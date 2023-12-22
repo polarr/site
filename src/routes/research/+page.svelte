@@ -25,6 +25,13 @@
 
 	const achievements: App.Achievement[] = [
 		{
+			title: 'CSMC Student Champion',
+			date: '2023 December',
+			icon: TrophySolid,
+			description:
+				'Made up for last year'
+		},
+		{
 			title: 'AMC12 130.5',
 			date: '2023 November',
 			icon: MedalSolid,
