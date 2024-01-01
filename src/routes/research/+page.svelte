@@ -25,6 +25,13 @@
 
 	const achievements: App.Achievement[] = [
 		{
+			title: 'CMS Olympiad Winter Camp Invitee',
+			date: '2023 December',
+			icon: TrophySolid,
+			description:
+				'Canadian Black MOP ✅'
+		},
+		{
 			title: 'CSMC Student Champion',
 			date: '2023 December',
 			icon: TrophySolid,
