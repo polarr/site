@@ -25,11 +25,16 @@
 
 	const achievements: App.Achievement[] = [
 		{
+			title: 'COMC Perfect Score, Champion',
+			date: '2024 January',
+			icon: TrophySolid
+		},
+		{
 			title: 'CMS Olympiad Winter Camp Invitee',
 			date: '2023 December',
 			icon: TrophySolid,
 			description:
-				'Canadian Black MOP ✅'
+				'Canadian MOP ✅'
 		},
 		{
 			title: 'CSMC Student Champion',
@@ -43,15 +48,8 @@
 			date: '2023 November',
 			icon: MedalSolid,
 			description:
-				'The leaks were very unfortunate'
+				'Rip leaks'
 		},
-		{
-			title: 'Waterloo EMACS Program Invitee',
-			date: '2023 July',
-			icon: MedalSolid,
-			description:
-				'Very fun week'
-		},	
 		{
 			title: '1570 on the SAT',
 			date: '2023 May',
@@ -89,7 +87,7 @@
 			date: '2022 November',
 			icon: MedalSolid,
 			description:
-				'Sillied early, or would\'ve placed nationwide Top 5'
+				'Sillied part A, or would\'ve been Group I'
 		},
 		{
 			title: 'AMC12 123',
@@ -101,23 +99,19 @@
 		{
 			title: 'NanoMath FMM 2nd Place',
 			date: '2022 October',
-			icon: MedalSolid,
-			description:
-				'One problem away from first place over a team of MOPpers'
+			icon: MedalSolid
 		},
 		{
-			title: 'Official Canadian Olympiad Training Camp Invitee',
+			title: 'CMS Summer Olympiad Training Camp Invitee',
 			date: '2022 August',
-			icon: TrophySolid,
-			description:
-				'Was unfortunately held virtually'
+			icon: TrophySolid
 		},
 		{
-			title: 'Canadian Math Olympiad Top 20',
+			title: 'Canadian Math Olympiad Top Quartile',
 			date: '2022 March',
 			icon: TrophySolid,
 			description:
-				"Solved P1 and P3. Score would've been National Champion if I opted for the Junior Olympiad instead"
+				"Score was CJMO Champion if I took that"
 		},
 		{
 			title: '5 on AP Calc BC',
@@ -127,15 +121,15 @@
 		{
 			title: 'AIME 8/15',
 			date: '2021 March',
-			icon: MedalSolid,
-			description: 'Solid for 9th grade'
+			icon: MedalSolid
 		},
+		/**
 		{
 			title: 'AMC10 118.5',
 			date: '2020 January',
 			icon: MedalSolid,
 			description: 'This first AMC10 attempt in 8th grade is my best...'
-		}
+		}*/
 	];
 </script>
 
