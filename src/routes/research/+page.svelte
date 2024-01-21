@@ -27,7 +27,9 @@
 		{
 			title: 'COMC Perfect Score, Champion',
 			date: '2024 January',
-			icon: TrophySolid
+			icon: TrophySolid,
+			description:
+				'Qualified for CMO and APMO'
 		},
 		{
 			title: 'CMS Olympiad Winter Camp Invitee',

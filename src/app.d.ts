@@ -4,6 +4,8 @@ import type { IconType } from "flowbite-svelte/types";
 import type { SvelteComponent, SvelteComponentTyped } from "svelte";
 import type { SvelteComponentDev } from "svelte/internal";
 
+type BadgeColor = "red" | "yellow" | "green" | "indigo" | "purple" | "pink" | "blue" | "dark";
+
 // for information about these interfaces
 declare global {
 	namespace App {
@@ -35,13 +37,13 @@ declare global {
 
 		declare interface ProjectBadge {
 			name: string;
-			slug: string;
-			logoColor?: string;
-			color: string;
+			color?: BadgeColor;
 		}
 
 		declare interface Project {
 			title: string;
+			subtitle?: string;
+			link?: string;
 			description: string;
 			imageSrc: string;
 			links: ProjectLink[];
