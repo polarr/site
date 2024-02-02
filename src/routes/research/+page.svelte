@@ -36,7 +36,7 @@
 			date: '2023 December',
 			icon: TrophySolid,
 			description:
-				'Canadian MOP ✅'
+				'Canadian MOP'
 		},
 		{
 			title: 'CSMC Student Champion',
@@ -143,6 +143,9 @@
 		can also find me on AoPS (where I rarely but sometimes post) as <A
 			href="https://aops.com/community/user/polarity">polarity</A
 		>. I founded <A href="https://mathetal.org">Math et al</A>, a nonprofit educational STEM initiative. We host many events, contests, and provide platforms and resources promoting the sciences.
+	</P>
+	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		I recently resumed competing in <Span>Competitive Programming</Span>. You can find me on DMOJ, Codeforces and various other platforms as <A href="/redirect/dmoj">1egend</A>.
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
 		I did some <Span>Physics Research</Span> for the

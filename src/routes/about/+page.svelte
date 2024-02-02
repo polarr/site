@@ -68,7 +68,7 @@
 			</Span>
 			but also occassionally dabble in Computer Graphics, Game Development. I also participate in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">Math Olympiads</Span>
-			and Competitive Programming. I founded <Span underline>Math et al</Span>, a nonprofit
+			and <Span underline decorationClass="decoration-green-500 decoration-dotted">Competitive Programming</Span>. I founded <Span underline>Math et al</Span>, a nonprofit
 			organization hosting events, contests, and providing platforms and resources to promote the
 			sciences.
 		</P>

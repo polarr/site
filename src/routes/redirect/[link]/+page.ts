@@ -8,7 +8,8 @@ const redirectMap: {[key: string]: string} = {
     'steam': 'https://steamcommunity.com/id/tropicopineappo/',
     'email': 'mailto:polarity@polarity.sh',
     'shadertoy': 'https://www.shadertoy.com/user/IAmLegend',
-    'resume': 'https://docs.google.com/document/d/1LyU9puk-V5XDCpSOV4h9Sq3ZsncYoosvmCpyz6IbL-o/edit?usp=sharing'
+    'resume': 'https://docs.google.com/document/d/1LyU9puk-V5XDCpSOV4h9Sq3ZsncYoosvmCpyz6IbL-o/edit?usp=sharing',
+    'dmoj': 'https://dmoj.ca/user/1egend'
 };
 
 export function load({ params }){
