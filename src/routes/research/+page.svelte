@@ -138,11 +138,10 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I have many years of experience participating in <Span>Math Contests</Span> and <Span underline>Olympiads</Span>. If you know, A = N
-		> C >> G. I occassionally post on my <A href="/blog">blog</A> about interesting problems. You
+		I used to participate in <Span underline>Math Olympiads</Span>. If you know, A > C = N >> G. I occassionally post on my <A href="/blog">blog</A> about interesting problems. You
 		can also find me on AoPS (where I rarely but sometimes post) as <A
 			href="https://aops.com/community/user/polarity">polarity</A
-		>. I founded <A href="https://mathetal.org">Math et al</A>, a nonprofit educational STEM initiative. We host many events, contests, and provide platforms and resources promoting the sciences.
+		>. In high school, I ran <A href="https://mathetal.org">Math et al</A>, a nonprofit educational STEM initiative.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I recently resumed competing in <Span>Competitive Programming</Span>. You can find me on DMOJ, Codeforces and various other platforms as <A href="/redirect/dmoj">1egend</A>.
@@ -152,12 +151,12 @@
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in ink droplets.
 	</P>
+	<!--
 	<Hr class="my-8" height="h-px" />
-
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Accolades</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		Some more notable achievements.
 	</P>
 	<div id="achievements" />
-    <Achievements {achievements} />
+    <Achievements {achievements} />-->
 </div>

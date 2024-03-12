@@ -66,17 +66,15 @@
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">
 				Fullstack Web Development
 			</Span>
-			but also occassionally dabble in Computer Graphics, Game Development. I also participate in
-			<Span underline decorationClass="decoration-green-500 decoration-dotted">Math Olympiads</Span>
-			and <Span underline decorationClass="decoration-green-500 decoration-dotted">Competitive Programming</Span>. I founded <Span underline>Math et al</Span>, a nonprofit
-			organization hosting events, contests, and providing platforms and resources to promote the
-			sciences.
+			but also dabble in Computer Graphics and Game Development. I used to participate in
+			Math Olympiads
+			and Competitive Programming.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			I enjoy sports, music, and video games in my free time.
+			I enjoy running, lifting, music, and reading in my free time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
-
+		<!--
 		<List
 			tag="ul"
 			list="none"
@@ -108,7 +106,7 @@
 			<Li>
 				FAQs
 			</Li>
-			<!--
+			
 			<Li>
 				<A href="/faq#hobbies" class="hover:underline" textColor="text-gray-700 dark:text-white"
 					>Hobbies</A
@@ -118,7 +116,7 @@
 			<Li>
 				<A href="/faq" class="hover:underline" textColor="text-gray-700 dark:text-white">FAQs</A>
 			</Li>
-			-->
 		</List>
+		-->
 	</div>
 </div>

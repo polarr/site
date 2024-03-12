@@ -7,9 +7,6 @@
 	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-6xl">
 		<Span gradient>Polarity</Span>
 	</Heading>
-	<P class="mb-6 text-center text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-		Software & Math Enthusiast
-	</P>
 	<div class="flex space-x-6 mb-4 justify-center">
 		<A href="/redirect/github" color="text-gray-400 hover:text-gray-900">
 			<GithubBrand size="24"/>
