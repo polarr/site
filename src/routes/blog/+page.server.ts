@@ -3,3 +3,5 @@ export async function load({ fetch }) {
 	const posts: Blog.Post[] = await response.json();
 	return { posts };
 }
+
+export const prerender = false;

@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit'
 
-async function getPosts() {
+function getPosts() {
 	let posts: Blog.Post[] = [];
 
 	const paths = import.meta.glob('/src/routes/blog/post/*.md', { eager: true });
@@ -23,7 +23,9 @@ async function getPosts() {
 	return posts;
 }
 
-export async function GET() {
-	const posts = await getPosts();
+export function GET() {
+	const posts = getPosts();
 	return json(posts);
 }
+
+export const prerender = false;
