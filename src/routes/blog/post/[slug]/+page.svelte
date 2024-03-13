@@ -1,6 +1,5 @@
 <script lang="ts">
     import { Heading, A, P, Hr, Badge, Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
-    import { RssSolid } from 'svelte-awesome-icons';
     function formatDate(date: string, dateStyle: Blog.DateStyle = 'medium', locales = 'en') {
         // Dash sanitization for Safari
         const dateToFormat = new Date(date.replaceAll('-', '/'))
@@ -26,7 +25,7 @@
         <BreadcrumbItem href="/blog" home>Blog</BreadcrumbItem>
         <BreadcrumbItem>{ title }</BreadcrumbItem>
     </Breadcrumb>
-    
+
     <Heading tag="h1" customSize="text-5xl font-extrabold">{ title }</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
         Published { formatDate(date) }
