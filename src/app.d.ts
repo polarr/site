@@ -50,6 +50,20 @@ declare global {
 			technologies: ProjectBadge[];
 		}
 	}
+
+	namespace Blog {
+		type DateStyle = Intl.DateTimeFormatOptions['dateStyle']
+		type Categories = 'math' | 'informatics' | 'physics' | 'contests' | 'graphics'
+
+		declare interface Post {
+			title: string
+			slug: string
+			description: string
+			date: string
+			categories: Blog.Categories[]
+			published: boolean
+		}
+	}
 }
 
 export {};
