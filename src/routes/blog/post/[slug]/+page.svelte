@@ -9,7 +9,7 @@
 
 	export let data;
 
-    const { title, date, description, categories, slug } = data.meta;
+    const { title, date, description, categories, slug, published } = data.meta;
 </script>
 
 <!-- SEO -->
@@ -27,9 +27,15 @@
     </Breadcrumb>
 
     <Heading tag="h1" customSize="text-5xl font-extrabold">{ title }</Heading>
-    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-        Published { formatDate(date) }
-    </P>
+    {#if published}
+        <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+            Published { formatDate(date) }
+        </P>
+        {:else}
+        <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+            Written { formatDate(date) }, Unpublished
+        </P>
+    {/if}
     {#each data.meta.categories as category}
         <Badge color="dark" class="mr-1" href={"/blog/category/" + category}>
             &num;{category}
