@@ -26,7 +26,7 @@
         <BreadcrumbItem>{ title }</BreadcrumbItem>
     </Breadcrumb>
 
-    <Heading tag="h1" customSize="text-5xl font-extrabold">{ title }</Heading>
+    <Heading tag="h1" customSize="text-4xl font-extrabold">{ title }</Heading>
     {#if published}
         <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
             Published { formatDate(date) }

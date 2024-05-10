@@ -14,9 +14,9 @@
 		<A href="/redirect/youtube" color="text-gray-400 hover:text-gray-900">
 			<YoutubeBrand size="24"/>
 		</A>
-		<A href="/redirect/instagram" color="text-gray-400 hover:text-gray-900">
+		<!--<A href="/redirect/instagram" color="text-gray-400 hover:text-gray-900">
 			<InstagramBrand size="24" />
-		</A>
+		</A>-->
 		<A href="/redirect/discord" color="text-gray-400 hover:text-gray-900">
 			<DiscordBrand size="24"/>
 		</A> 

@@ -45,9 +45,11 @@
 		<Button href="/redirect/youtube">
 			<YoutubeBrand size="15" />
 		</Button>
+		<!--
 		<Button href="/redirect/instagram">
 			<InstagramBrand size="15" />
 		</Button>
+		-->
 		<Button href="/redirect/steam">
 			<SteamBrand size="15" />
 		</Button>
@@ -60,15 +62,14 @@
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I'm
 			<Span class="font-black" gradient>Polarity</Span>, a Canadian high school student interested in
-			<A href="/dev"><Span underline>Software</Span></A>
+			<A href="/dev"><Span underline>Computer Science</Span></A>
 			and
 			<A href="/research"><Span underline>Math</Span></A>. I specialize in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">
 				Fullstack Web Development
 			</Span>
-			but also dabble in Computer Graphics and Game Development. I used to participate in
-			Math Olympiads
-			and Competitive Programming.
+			but also dabble in Artificial Intelligence, Competitive Programming, and Computer Graphics. I used to participate in
+			Math Olympiads.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I enjoy running, lifting, music, and reading in my free time.

@@ -138,16 +138,15 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I used to participate in <Span underline>Math Olympiads</Span>. If you know, A > C = N >> G. I occassionally post on my <A href="/blog">blog</A> about interesting problems. You
-		can also find me on AoPS (where I rarely but sometimes post) as <A
-			href="https://aops.com/community/user/polarity">polarity</A
-		>. In high school, I ran <A href="https://mathetal.org">Math et al</A>, a nonprofit educational STEM initiative.
+		I recently resumed studying <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/dmoj">DMOJ</A>, <A href="/redirect/codeforces">Codeforces</A> and various other platforms under the username 1egend.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I recently resumed competing in <Span>Competitive Programming</Span>. You can find me on DMOJ, Codeforces and various other platforms as <A href="/redirect/dmoj">1egend</A>.
+		I used to participate in <Span underline>Math Olympiads</Span>. If you know, A > C = N >>> G. You can find me on AoPS (where I rarely post) as <A
+			href="https://aops.com/community/user/polarity">polarity</A
+		>. In high school, I ran <A href="https://mathetal.org">Math et al</A> and was part of <A href="https://www.ontariocmc.ca/">OCMC</A>, both nonprofit educational STEM initiatives.
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
-		I did some <Span>Physics Research</Span> for the
+		I did a small bit of <Span>Physics Research</Span> for the
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in ink droplets.
 	</P>

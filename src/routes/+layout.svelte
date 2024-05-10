@@ -57,9 +57,10 @@
 				<FooterIcon href="/redirect/youtube" class="text-gray-400 hover:text-gray-900">
 					<YoutubeBrand size="20"/>
 				</FooterIcon>
-				<FooterIcon href="/redirect/instagram" class="text-gray-400 hover:text-gray-900">
+				<!--<FooterIcon href="/redirect/instagram" class="text-gray-400 hover:text-gray-900">
 					<InstagramBrand size="20"/>
 				</FooterIcon>
+				-->
 				<FooterIcon href="/redirect/discord" class="text-gray-400 hover:text-gray-900">
 					<DiscordBrand size="20"/>
 				</FooterIcon>

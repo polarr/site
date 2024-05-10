@@ -32,7 +32,7 @@
     </div>
       
     {#each data.posts as { title, slug, description, date, categories }}
-        <Heading tag="h1" customSize="text-5xl font-extrabold">{ title }</Heading>
+        <Heading tag="h1" customSize="text-4xl font-extrabold">{ title }</Heading>
         <P class="my-2" weight="light" color="text-gray-500 dark:text-gray-400">
             { formatDate(date) }
         </P>
@@ -47,6 +47,5 @@
         <A href={"/blog/post/" + slug} class="font-medium hover:underline">Read more</A>
         <Hr class="mb-8" height="h-px" />
     {/each}
-	
 </div>
 
