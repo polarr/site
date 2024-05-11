@@ -21,6 +21,10 @@
 <svelte:head>
 	<meta property="og:title" content="About" />
 	<meta property="og:description" content="About polarity" />
+	<meta property="og:type" content="profile" />
+	<meta property="profile:first_name" content="Charles" />
+	<meta property="profile:last_name" content="Ran" />
+	<meta property="profile:username" content="polarity" />
 </svelte:head>
 
 <div class="my-auto flex flex-col justify-center items-center">

@@ -3,6 +3,15 @@
 	import { DiscordBrand, EnvelopeSolid, GithubBrand, InstagramBrand, SteamBrand, YoutubeBrand } from 'svelte-awesome-icons';
 </script>
 
+<svelte:head>
+	<meta property="og:title" content="Portfolio" />
+	<meta property="og:description" content="Polarity's personal website" />
+	<meta property="og:type" content="profile" />
+	<meta property="profile:first_name" content="Charles" />
+	<meta property="profile:last_name" content="Ran" />
+	<meta property="profile:username" content="polarity" />
+</svelte:head>
+
 <div class="my-auto text-center min-h-full">
 	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-6xl">
 		<Span gradient>Polarity</Span>
