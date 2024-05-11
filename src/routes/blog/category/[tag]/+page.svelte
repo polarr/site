@@ -10,6 +10,9 @@
     }
 
     function formatTag(s: string) {
+        if (s.toLowerCase() == 'cs'){
+            return 'CS';
+        }
         return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
     }
 

@@ -26,9 +26,9 @@ const config = {
 				highlighter: async (code, lang = 'text') => {
 					const highlighter = await getHighlighter({
 						themes: ['github-dark'],
-						langs: ['c', 'cpp', 'glsl', 'julia', 'python', 'javascript', 'typescript']
+						langs: ['c', 'cpp', 'glsl', 'julia', 'python', 'html', 'javascript', 'typescript']
 					})
-					await highlighter.loadLanguage('c', 'cpp', 'glsl', 'julia', 'python', 'javascript', 'typescript')
+					await highlighter.loadLanguage('c', 'cpp', 'glsl', 'julia', 'python', 'html', 'javascript', 'typescript')
 					const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'github-dark' }))
 					return `{@html \`${html}\` }`
 				}
