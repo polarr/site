@@ -24,6 +24,17 @@
 	import { GithubBrand, DiscordBrand, YoutubeBrand, InstagramBrand, SteamBrand, EnvelopeSolid } from 'svelte-awesome-icons';
 </script>
 
+<!-- SEO -->
+<svelte:head>
+	<meta property="og:site_name" content="polarity" />
+	<meta property="og:type" content="profile" />
+	<meta property="profile:first_name" content="Charles" />
+	<meta property="profile:last_name" content="Ran" />
+	<meta property="profile:username" content="polarity" />
+	<meta property="og:title" content="Portfolio" />
+	<meta property="og:description" content="Polarity's personal website" />
+</svelte:head>
+
 <div class="app relative flex flex-col h-screen">
 	<Navbar let:hidden let:toggle>
 		<NavBrand href="/">

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" crossorigin="anonymous">
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
 </svelte:head>
 
 <article class="max-w-3xl py-8">
@@ -37,7 +38,7 @@
         </P>
     {/if}
     {#each data.meta.categories as category}
-        <Badge color="dark" class="mr-1" href={"/blog/category/" + category}>
+        <Badge property="article:tag" color="dark" class="mr-1" href={"/blog/category/" + category}>
             &num;{category}
         </Badge>
     {/each}

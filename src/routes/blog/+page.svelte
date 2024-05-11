@@ -14,6 +14,8 @@
 
 <svelte:head>
     <link rel="alternate" type="application/atom+xml" href="/rss.xml" />
+	<meta property="og:title" content="Polarity's Blog" />
+    <meta property="og:description" content="A collection of pseudorandom thoughts" />
 </svelte:head>
 
 <div class="max-w-3xl py-8">

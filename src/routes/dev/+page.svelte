@@ -16,6 +16,12 @@
 	import Technologies from './Technologies.svelte';
 </script>
 
+<!-- SEO -->
+<svelte:head>
+	<meta property="og:title" content="Research" />
+	<meta property="og:description" content="Polarity's software interests" />
+</svelte:head>
+
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Software</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">

@@ -236,6 +236,12 @@
 	];
 </script>
 
+<!-- SEO -->
+<svelte:head>
+	<meta property="og:title" content="Projects" />
+	<meta property="og:description" content="Polarity's featured projects" />
+</svelte:head>
+
 <div>
 	<Heading tag="h3" class="my-4">
 		Featured Projects

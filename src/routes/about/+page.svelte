@@ -17,6 +17,12 @@
 	const aliases = ['TropicoMango', 'Mango', '1egend'];
 </script>
 
+<!-- SEO -->
+<svelte:head>
+	<meta property="og:title" content="About" />
+	<meta property="og:description" content="About polarity" />
+</svelte:head>
+
 <div class="my-auto flex flex-col justify-center items-center">
 	<div class="flex items-center space-x-4">
 		<Avatar src="/mango_v3.svg" rounded size="lg" />

@@ -19,6 +19,12 @@
     export let data;
 </script>
 
+<svelte:head>
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml" />
+	<meta property="og:title" content="Polarity's Blog" />
+    <meta property="og:description" content={"A collection of pseudorandom thoughts in " + formatTag(data.tag)} />
+</svelte:head>
+
 <div class="max-w-3xl py-8">
     {#if data.posts?.length}
         <Breadcrumb aria-label="Default breadcrumb example" class="mb-8">
