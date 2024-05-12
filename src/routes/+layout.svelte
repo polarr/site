@@ -47,7 +47,7 @@
 			<NavLi href="/redirect/resume">Resume</NavLi>
 		</NavUl>
 	</Navbar>
-	<div class="grow overflow-scroll">
+	<div class="grow overflow-auto">
 		<main class="flex flex-col p-4 items-center w-full min-h-full h-fit">
 			<slot />
 		</main>

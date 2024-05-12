@@ -5,4 +5,9 @@
 }
 body {
     font-family: "InterVariable", sans-serif;
+    overflow: hidden;
+}
+
+pre {
+    min-width: fit-content;
 }
