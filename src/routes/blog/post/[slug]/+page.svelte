@@ -21,7 +21,7 @@
     <meta property="og:description" content={description} />
 </svelte:head>
 
-<article class="max-w-3xl py-8">
+<article class="w-full max-w-3xl py-8">
     <Breadcrumb aria-label="Default breadcrumb example" class="mb-8">
         <BreadcrumbItem href="/blog" home>Blog</BreadcrumbItem>
         <BreadcrumbItem>{ title }</BreadcrumbItem>

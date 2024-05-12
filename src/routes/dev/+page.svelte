@@ -18,7 +18,7 @@
 
 <!-- SEO -->
 <svelte:head>
-	<meta property="og:title" content="Research" />
+	<meta property="og:title" content="Dev" />
 	<meta property="og:description" content="Polarity's software interests" />
 </svelte:head>
 
