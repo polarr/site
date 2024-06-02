@@ -163,5 +163,5 @@
 		Most notable achievements:
 	</P>
 	<div id="achievements" />
-    <Achievements {achievements} />-->
+    <Achievements {achievements} />
 </div>
