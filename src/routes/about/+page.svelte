@@ -71,18 +71,16 @@
 	<div class="max-w-2xl">
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I'm
-			<Span class="font-black" gradient>Polarity</Span>, a Canadian high school student interested in
-			<A href="/dev"><Span underline>Computer Science</Span></A>
-			and
-			<A href="/research"><Span underline>Math</Span></A>. I specialize in
+			<Span class="font-black" gradient>Polarity</Span>, a Canadian high school student mainly interested in
+			<A href="/dev"><Span underline>Computer Science</Span></A>,<A href="/research"><Span underline>Math</Span></A> and <A href="/research"><Span underline>Business</Span></A>. I specialize in
 			<Span underline decorationClass="decoration-green-500 decoration-dotted">
 				Fullstack Web Development
 			</Span>
-			but also dabble in Artificial Intelligence, Competitive Programming, and Computer Graphics. I used to participate in
+			but also dabble in Theoretical CS, System Administration, Computer Graphics, and Artificial Intelligence. I used to participate in
 			Math Olympiads.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			I enjoy running, lifting, music, and reading in my free time.
+			I enjoy running, tennis, weight training, music, guitar, and reading in my free time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
 		<!--

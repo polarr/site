@@ -53,7 +53,7 @@
 		</main>
 		<Footer class="p-6">
 			<span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-				© 2020-{new Date().getFullYear()} • Last Updated 2024-3-13
+				© 2020-{new Date().getFullYear()} • Last Updated 2024-5-13
 			</span>
 			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 				<FooterIcon href="/redirect/github" class="text-gray-400 hover:text-gray-900">

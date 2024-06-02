@@ -6,15 +6,15 @@
 	const projects: App.Project[] = [
 		{
 			title: 'Virtual Olympiad',
-			subtitle: 'Online Math Platform',
-			description: 'Massive online platform and services for the contest math community. VODB maintains a schemafull, open-source and well documented database of contest problems with a user and community system and an online judge. VOLY allows users to host public/private multiplayer contest lobbies with computer-generated problemsets to compete and/or practice. Rounds are given extensive customizability in format (normal, teams, relay), time controls, difficulty, and more.',
+			subtitle: 'Science Olympiad Platform & APIs',
+			description: 'Hosted platforms, APIs and tools for Science Olympiads. VODB maintains a massive schemaful database of indexed contest problems, fully categorized. VOJ hosts a community platform and an online judge. Arena allows users to create public/private multiplayer contest lobbies with computer-generated problemsets to compete with friends. Rounds are given extensive customizability in format (normal, teams, relay), time controls, difficulty, and more.',
 			imageSrc: '/projects/voly.png',
-			link: "https://voly.mathetal.org",
+			link: "https://volympiad.org",
 			links: [
 				{
 					icon: GithubBrand,
 					label: 'View on Github',
-					href: 'https://github.com/virtual-olympiad/voly'
+					href: 'https://github.com/virtual-olympiad/'
 				}
 			],
 			technologies: [
@@ -23,7 +23,7 @@
 					color: 'red'
 				},
 				{
-					name: 'Carbon Design',
+					name: 'Tailwind',
 					color: 'red'
 				},
 				{
@@ -39,7 +39,7 @@
 					color: 'purple'
 				},
 				{
-					name: 'Firebase',
+					name: 'Supabase',
 					color: 'purple'
 				},
 				{
@@ -71,7 +71,7 @@
 		{
 			title: 'CERXA',
 			subtitle: 'Computer Graphics Engine',
-			description: 'Custom P5.js and WebGL Graphics Engines implemented from scratch supporting Rasterization and Volumetric Raytracing. Features ambient, diffuse and specular lighting, hard shadows, a dynamic camera system and support for distance-estimated fractal rendering.',
+			description: 'Custom P5.js and WebGL Graphics Engines implemented from scratch in GLSL, supporting Rasterization and Volumetric Raytracing. Features ambient, diffuse and specular lighting, hard shadows, a dynamic camera system and support for distance-estimated fractal rendering.',
 			imageSrc: '/projects/cerxa.png',
 			link: 'https://cerxa.polarity.sh',
 			links: [
@@ -247,9 +247,7 @@
 		Featured Projects
 	</Heading>
 	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">
-		I'm currently working on <A href="https://voly.mathetal.org">Virtual Olympiad</A>, a platform to host
-		multiplayer contest math practice built upon <A href="https://vodb.mathetal.org">VODB</A>, a massive
-		database of contest problems.
+		I'm currently working on <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads.
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
 		See my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.

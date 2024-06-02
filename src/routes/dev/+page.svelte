@@ -45,10 +45,7 @@
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Projects</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently working on <A href="https://voly.mathetal.org">VOLY</A>, a platform to host
-		multiplayer contest math practice built upon <A href="https://vodb.mathetal.org">VODB</A>, a massive
-		database of contest problems.
-
+		I'm currently working on <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads.
 		<A
 			href="/projects"
 			textColor="text-blue-600 dark:text-blue-500"
