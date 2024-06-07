@@ -78,7 +78,7 @@
 				{
 					icon: GithubBrand,
 					label: 'View on GitHub',
-					href: 'https://github.com/polarr/graphics'
+					href: 'https://github.com/polarr/cerxa'
 				}
 			],
 			technologies: [
@@ -107,7 +107,23 @@
 					color: 'green'
 				}
 			]
-		},
+		},/*
+		{
+			title: 'Rudis',
+			subtitle: 'Highly Modular Realtime Game Server',
+			description: 'Robust realtime game server supporting highly modular procedural game logic. Built for websocket, supports function triggers and transactional database integration.',
+			imageSrc: '/projects/aesthete.png',
+			links: [
+				{
+					icon: GithubBrand,
+					label: 'Closed Source',
+					href: 'https://github.com/virtual-olympiad/aesthete'
+				}
+			],
+			technologies: [
+				
+			]
+		},*/
 		{
 			title: 'BrawlTrack',
 			subtitle: 'Statistics Tracker',
@@ -159,6 +175,42 @@
 				},
 				{
 					name: 'Javascript',
+					color: 'green'
+				}
+			]
+		},
+		
+		{
+			title: 'Aesthete',
+			subtitle: 'Batteries-Included Math Parser & API Wrapper',
+			description: 'Typescript HTML parser module supporting TeX in the web, allowing conversion to an intermediate HTML/TeX-like language for rich full-text search and rendering to KaTeX/MathML. Also an API wrapper for the Art of Problem Solving Website.',
+			imageSrc: '/projects/aesthete.png',
+			links: [
+				{
+					icon: GithubBrand,
+					label: 'View on GitHub',
+					href: 'https://github.com/virtual-olympiad/aesthete'
+				}
+			],
+			technologies: [
+				{
+					name: 'NPM',
+					color: 'red'
+				},
+				{
+					name: 'Got',
+					color: 'purple'
+				},
+				{
+					name: 'Cheerio',
+					color: 'purple'
+				},
+				{
+					name: 'Katex',
+					color: 'purple'
+				},
+				{
+					name: 'Typescript',
 					color: 'green'
 				}
 			]

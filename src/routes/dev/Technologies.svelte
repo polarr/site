@@ -99,6 +99,12 @@
 			color: '06B6D4'
 		},
 		{
+			name: 'Shadcn UI',
+			slug: 'shadcnui',
+			loved: true,
+			color: '000000'
+		},
+		{
 			name: 'Material Design',
 			slug: 'materialdesign',
 			color: '757575'
@@ -152,13 +158,6 @@
             loved: true,
             color: 'F37626'
         },
-		{
-			name: 'Linux',
-			slug: 'linux',
-			loved: true,
-			logoColor: '333333',
-			color: 'FCC624'
-		},
 		{
 			name: 'Powershell',
 			slug: 'powershell',
@@ -220,17 +219,17 @@
 			color: 'EB5424'
 		},
         {
-			name: 'Pocketbase',
-			slug: 'pocketbase',
-			loved: true,
-            logoColor: '333333',
-			color: 'B8DBE4'
-		},
-        {
 			name: 'Docker',
 			slug: 'docker',
 			loved: true,
 			color: '2496ED'
+		},
+		{
+			name: 'Linux',
+			slug: 'linux',
+			loved: true,
+			logoColor: '333333',
+			color: 'FCC624'
 		},
         {
 			name: 'NGINX',
@@ -241,7 +240,6 @@
         {
 			name: 'Pocketbase',
 			slug: 'pocketbase',
-			loved: true,
             logoColor: '333333',
 			color: 'B8DBE4'
 		},
@@ -268,7 +266,6 @@
 		{
 			name: 'SQLite',
 			slug: 'sqlite',
-			loved: true,
 			color: '003B57'
 		},
         {
