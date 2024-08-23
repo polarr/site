@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { Heading, A, P, Button, Span, FooterIcon } from 'flowbite-svelte';
-	import { DiscordBrand, EnvelopeSolid, GithubBrand, InstagramBrand, SteamBrand, YoutubeBrand } from 'svelte-awesome-icons';
+	import { Heading, A, P, Button, Span, FooterIcon, Tooltip } from 'flowbite-svelte';
+	import { DiscordBrand, EnvelopeSolid, GithubBrand, InstagramBrand, LinkedinBrand, SteamBrand, YoutubeBrand } from 'svelte-awesome-icons';
+	import { copyText } from 'svelte-copy';
 </script>
 
 <svelte:head>
@@ -26,11 +27,18 @@
 		<!--<A href="/redirect/instagram" color="text-gray-400 hover:text-gray-900">
 			<InstagramBrand size="24" />
 		</A>-->
-		<A href="/redirect/discord" color="text-gray-400 hover:text-gray-900">
-			<DiscordBrand size="24"/>
-		</A> 
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<span class="text-gray-400 hover:text-gray-900" on:click={async () => await navigator.clipboard.writeText('tropicomango')} >
+			<DiscordBrand size="24" />
+		</span>
+		<Tooltip arrow={false}>
+			@tropicomango
+		</Tooltip>
 		<A href="/redirect/steam" color="text-gray-400 hover:text-gray-900">
 			<SteamBrand size="24"/>
+		</A>
+		<A href="/redirect/linkedin" color="text-gray-400 hover:text-gray-900">
+			<LinkedinBrand size="24"/>
 		</A>
 		<A href="/redirect/email" color="text-gray-400 hover:text-gray-900">
 			<EnvelopeSolid size="24"/>

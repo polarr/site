@@ -66,7 +66,7 @@
 			icon: CheckSolid
 		},**/
 		{
-			title: 'IYPT Physics World Cup Canadian Training Camp',
+			title: 'IYPT Physics World Cup National Finalist',
 			date: '2023 April',
 			icon: TrophySolid,
 			description:
@@ -144,11 +144,11 @@
 		Currently studying a wide range of mathematical interests in Linear Algebra, Analysis, and Algebraic Number Theory.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I recently resumed <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> and various other platforms.
+		I also participate in <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> and some other platforms.
 	</P>
 	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Work</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I did a small bit of <Span>Physics Research</Span> for the
+		I did a bit of <Span>Physics Research</Span> for the
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
 	</P>
