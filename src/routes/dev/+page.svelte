@@ -61,21 +61,3 @@
 		</A>
 	</P>
 </div>
-
-<script lang="ts">
-	import {
-		Avatar,
-		Badge,
-		Button,
-		ButtonGroup,
-		Tooltip,
-		Tabs,
-		TabItem,
-		Indicator
-	} from 'flowbite-svelte';
-
-	import { Heading, A, P, Span, Hr } from 'flowbite-svelte';
-	import { ArrowRightSolid } from 'svelte-awesome-icons';
-
-	import Technologies from './Technologies.svelte';
-</script>
