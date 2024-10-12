@@ -141,21 +141,21 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		Currently studying a wide range of mathematical interests in Linear Algebra, Analysis, and Algebraic Number Theory.
+		Currently studying a wide range of mathematical interests in Linear Algebra, Analysis, Abstract Algebra and Analytic Number Theory.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I also participate in <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> and some other platforms.
+		I participate in <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> etc.
 	</P>
 	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Work</Heading>
+	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > C = N >>> G. You can find me on AoPS (where I rarely post) as <A
+			href="https://aops.com/community/user/polarity">polarity</A
+		>. In high school, I ran <A href="https://mathetal.org">Math et al</A> and was part of <A href="https://www.ontariocmc.ca/">OCMC</A>, both educational STEM initiatives.
+	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I did a bit of <Span>Physics Research</Span> for the
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
-	</P>
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > C = N >>> G (severe geo weakness was pretty costly in IMO attempt). You can find me on AoPS (where I rarely post) as <A
-			href="https://aops.com/community/user/polarity">polarity</A
-		>. In high school, I ran <A href="https://mathetal.org">Math et al</A> and was part of <A href="https://www.ontariocmc.ca/">OCMC</A>, both nonprofit educational STEM initiatives.
 	</P>
 	<!--<Hr class="my-8" height="h-px" />-->
 	<Heading tag="h3" customSize="text-2xl font-extrabold">Past Achievements</Heading>
