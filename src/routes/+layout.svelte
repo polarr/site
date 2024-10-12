@@ -18,10 +18,13 @@
 		FooterLink,
 		FooterBrand,
 		FooterIcon,
-		FooterCopyright
+		FooterCopyright,
+		Tooltip
 	} from 'flowbite-svelte';
 
-	import { GithubBrand, DiscordBrand, YoutubeBrand, InstagramBrand, SteamBrand, EnvelopeSolid } from 'svelte-awesome-icons';
+	import { copyText } from 'svelte-copy';
+
+	import { GithubBrand, DiscordBrand, YoutubeBrand, InstagramBrand, SteamBrand, LinkedinBrand, EnvelopeSolid } from 'svelte-awesome-icons';
 </script>
 
 <!-- SEO -->
@@ -53,7 +56,7 @@
 		</main>
 		<Footer class="p-6">
 			<span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-				© 2020-{new Date().getFullYear()} • Last Updated 2024-5-13
+				© 2020-{new Date().getFullYear()} • Last Updated 2024-08-19
 			</span>
 			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 				<FooterIcon href="/redirect/github" class="text-gray-400 hover:text-gray-900">
@@ -66,11 +69,20 @@
 					<InstagramBrand size="20"/>
 				</FooterIcon>
 				-->
-				<FooterIcon href="/redirect/discord" class="text-gray-400 hover:text-gray-900">
-					<DiscordBrand size="20"/>
-				</FooterIcon>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<span on:click={async () => await navigator.clipboard.writeText('tropicomango')}>
+					<FooterIcon href="#" class="text-gray-400 hover:text-gray-900">
+						<DiscordBrand size="20"/>
+						<Tooltip>
+							@tropicomango
+						</Tooltip>
+					</FooterIcon>
+				</span>
 				<FooterIcon href="/redirect/steam" class="text-gray-400 hover:text-gray-900">
 					<SteamBrand size="20"/>
+				</FooterIcon>
+				<FooterIcon href="/redirect/linkedin" class="text-gray-400 hover:text-gray-900">
+					<LinkedinBrand size="20"/>
 				</FooterIcon>
 				<FooterIcon href="/redirect/email" class="text-gray-400 hover:text-gray-900">
 					<EnvelopeSolid size="20"/>

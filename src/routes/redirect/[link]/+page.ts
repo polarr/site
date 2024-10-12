@@ -10,7 +10,8 @@ const redirectMap: {[key: string]: string} = {
     'shadertoy': 'https://www.shadertoy.com/user/IAmLegend',
     'resume': '/resume.pdf',
     'dmoj': 'https://dmoj.ca/user/polarity',
-    'codeforces': 'https://codeforces.com/profile/1egend'
+    'codeforces': 'https://codeforces.com/profile/1egend',
+    'linkedin': 'https://www.linkedin.com/in/charlesran/'
 };
 
 export function load({ params }){
