@@ -35,10 +35,10 @@
 		</span>
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm also interested in <A href="https://cerxa.polarity.sh">Computer Graphics Rendering</A>, primarily with OpenGL/WebGL. In the past, I did a lot of game development over the web, with p5.js and with pygame.
+		I participate in Competitive Programming. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> etc.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I participate in Competitive Programming. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> and various other platforms.
+		I'm also interested in <A href="https://cerxa.polarity.sh">Computer Graphics Rendering</A>, primarily with OpenGL/WebGL. In the past, I did a lot of game development over the web, with p5.js and with pygame.
 	</P>
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Technologies</Heading>
