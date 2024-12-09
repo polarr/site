@@ -25,6 +25,11 @@
 
 	const achievements: App.Achievement[] = [
 		{
+			title: 'ICPC British Columbia Bronze',
+			date: '2024 November',
+			icon: MedalSolid
+		},
+		{
 			title: 'COMC Champion',
 			date: '2024 January',
 			icon: TrophySolid
@@ -141,7 +146,7 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		Currently studying a wide range of mathematical interests in Linear Algebra, Analysis, Abstract Algebra and Analytic Number Theory.
+		Currently studying: Analytic Number Theory and various Algebra topics.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I participate in <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> etc.

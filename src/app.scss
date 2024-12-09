@@ -11,3 +11,12 @@ body {
 pre {
     min-width: fit-content;
 }
+
+/* Fixes KaTeX \frac line color */
+span.frac-line {
+    border-color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+:is(.dark span.frac-line){
+    border-color: rgb(229 231 235 / var(--tw-text-opacity));
+}
