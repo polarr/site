@@ -20,3 +20,9 @@ span.frac-line {
 :is(.dark span.frac-line){
     border-color: rgb(229 231 235 / var(--tw-text-opacity));
 }
+
+/* Removes blockquote font adjustment */
+blockquote {
+    font-weight: inherit !important;
+    font-size: inherit !important;
+}

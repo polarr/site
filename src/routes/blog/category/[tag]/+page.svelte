@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { Heading, A, P, Hr, Badge, Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
-    import { TagSolid, ChevronRightSolid } from "flowbite-svelte-icons";
+    import { Heading, A, P, Hr, Badge, Breadcrumb, BreadcrumbItem, Span } from 'flowbite-svelte';
+    import { TagSolid } from "flowbite-svelte-icons";
 
     function formatDate(date: string, dateStyle: Blog.DateStyle = 'medium', locales = 'en') {
         // Dash sanitization for Safari
@@ -10,6 +10,9 @@
     }
 
     function formatTag(s: string) {
+        if (s.toLowerCase() == 'problem-journal'){
+            return 'Problem Solving Journal';
+        }
         if (s.toLowerCase() == 'cs'){
             return 'CS';
         }
@@ -25,7 +28,7 @@
     <meta property="og:description" content={"A collection of pseudorandom thoughts in " + formatTag(data.tag)} />
 </svelte:head>
 
-<div class="max-w-3xl py-8">
+<div class="max-w-3xl w-full py-8">
     {#if data.posts?.length}
         <Breadcrumb aria-label="Default breadcrumb example" class="mb-8">
             <BreadcrumbItem href="/blog" home>
@@ -40,21 +43,31 @@
         </Breadcrumb>
         
         
-        {#each data.posts as { title, slug, description, date, categories }}
-            <Heading tag="h1" customSize="text-4xl font-extrabold">{ title }</Heading>
-            <P class="my-2" weight="light" color="text-gray-500 dark:text-gray-400">
-                { formatDate(date) }
-            </P>
-            {#each categories as category}
-                <Badge color="dark" class="mr-1" href={"/blog/category/" + category}>
-                    &num;{category}
-                </Badge>
-            {/each}
-            <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-                { description }
-            </P>
-            <A href={"/blog/post/" + slug} class="font-medium hover:underline">Read more</A>
-            <Hr class="mb-8" height="h-px" />
+        {#each data.posts as { title, slug, description, date, categories, problems = null, journalOnly }}
+            {#if data.tag == 'problem-journal' || !journalOnly }
+                <Heading tag="h1" customSize="text-4xl font-extrabold">{ title }</Heading>
+                <P class="my-2" weight="light" color="text-gray-500 dark:text-gray-400">
+                    { formatDate(date) }
+                </P>
+                {#each categories as category}
+                    <Badge color="dark" class="mr-1" href={"/blog/category/" + category}>
+                        &num;{category}
+                    </Badge>
+                {/each}
+                <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+                    { description }
+                </P>
+                {#if problems}
+                    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+                        <Span>Problems: </Span>
+                        {#each problems as problem, i}
+                        {i > 0 ? ' · ':''}{problem} 
+                        {/each}
+                    </P>
+                {/if}
+                <A href={"/blog/post/" + slug} class="font-medium hover:underline">Read more</A>
+                <Hr class="mb-8" height="h-px" />
+            {/if}
         {/each}
 
     {:else}

@@ -53,7 +53,7 @@ declare global {
 
 	namespace Blog {
 		type DateStyle = Intl.DateTimeFormatOptions['dateStyle']
-		type Categories = 'math' | 'informatics' | 'physics' | 'contests' | 'graphics'
+		type Categories = 'math' | 'cs' | 'algorithms' | 'physics' | 'contests' | 'graphics' | 'problem-journal'
 
 		declare interface Post {
 			title: string
@@ -61,6 +61,8 @@ declare global {
 			description: string
 			date: string
 			categories: Blog.Categories[]
+            problems?: string[]
+            journalOnly: boolean
 			published: boolean
 		}
 	}

@@ -3,7 +3,7 @@ import { json } from '@sveltejs/kit'
 function getPosts() {
 	let posts: Blog.Post[] = [];
 
-	const paths = import.meta.glob('/src/routes/blog/post/*.md', { eager: true });
+	const paths = import.meta.glob('/src/blog/**/*.md', { eager: true });
 
 	for (const path in paths) {
 		const file = paths[path];

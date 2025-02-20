@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Heading, A, P, Hr, Badge, Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    import { Heading, A, P, Hr, Badge, Breadcrumb, BreadcrumbItem, Span } from 'flowbite-svelte';
     function formatDate(date: string, dateStyle: Blog.DateStyle = 'medium', locales = 'en') {
         // Dash sanitization for Safari
         const dateToFormat = new Date(date.replaceAll('-', '/'))
@@ -9,7 +9,7 @@
 
 	export let data;
 
-    const { title, date, description, categories, slug, published } = data.meta;
+    const { title, date, description, categories, slug, problems = null, published } = data.meta;
 </script>
 
 <!-- SEO -->
@@ -42,6 +42,14 @@
             &num;{category}
         </Badge>
     {/each}
+    {#if problems}
+        <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+            <Span>Problems: </Span>
+            {#each problems as problem, i}
+            {i > 0 ? ' · ':''}{problem} 
+            {/each}
+        </P>
+    {/if}
     <P class="my-4" weight="light" color="text-gray-800 dark:text-gray-200">
         <svelte:component this={data.content} />
     </P>
