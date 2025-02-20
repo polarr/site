@@ -5,9 +5,9 @@ export async function load({ params }) {
         let post; 
         
 		if (params.slug[0] == 'p'){
-            post = await import(`/src/blog/problem-journal/${params.slug}.md`);
+            post = await import(`../../../../blog/problem-journal/${params.slug}.md`);
         } else {
-            post = await import(`/src/blog/${params.slug}.md`);
+            post = await import(`../../../../blog/${params.slug}.md`);
         }
 
 		return {
