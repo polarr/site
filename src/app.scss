@@ -39,8 +39,10 @@ blockquote {
     }
 }
 
-.edit-blockquote::before {
-    content: ' ';
+.edit-blockquote + .math-inline {
+    ::after { 
+        content: ' ';
+    }
 }
 
 a:has(.edit-blockquote) {
