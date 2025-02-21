@@ -5,7 +5,7 @@ import { mdsvex, escapeSvelte } from 'mdsvex'
 import { getHighlighter } from 'shiki';
 import rehypeKatexSvelte from "rehype-katex-svelte";
 import remarkMath from 'remark-math';
-import customBlockquotes from './customMarkdown.ts';
+import customBlockquotes from './customMarkdown.js';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

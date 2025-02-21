@@ -8,7 +8,7 @@ const blockquoteTypes = {
 function customBlockquotes() {
 	return (tree) => {
         let lastEdit = -1;
-		visit(tree, 'text', (node, i: number) => {
+		visit(tree, 'text', (node, i) => {
 			const type = Object.keys(blockquoteTypes).find((key) => node.value.startsWith(key) || node.position.start.line == lastEdit);
 			if (type) {
                 if (node.position.start.line != lastEdit){
