@@ -26,3 +26,26 @@ blockquote {
     font-weight: inherit !important;
     font-size: inherit !important;
 }
+
+.edit-blockquote, .edit-blockquote + .math {
+    font-weight: bold;
+
+    --tw-text-opacity: 1;
+    color: rgb(200 30 30 / var(--tw-text-opacity)) /* #c81e1e */;
+    
+    &:is(.dark *) {
+        --tw-text-opacity: 1;
+        color: rgb(240 82 82 / var(--tw-text-opacity)) /* #f05252 */;
+    }
+}
+
+.edit-blockquote::before {
+    content: ' ';
+}
+
+a:has(.edit-blockquote) {
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+    }
+}
