@@ -55,7 +55,7 @@
                     </Badge>
                 {/each}
                 <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-                    { description }
+                    { description ?? '' }
                 </P>
                 {#if problems}
                     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
