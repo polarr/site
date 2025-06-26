@@ -24,6 +24,11 @@
 	import Achievements from './Achievements.svelte';
 
 	const achievements: App.Achievement[] = [
+        {
+			title: 'Putnam Mathematics Competition Top 200',
+			date: '2025 January',
+			icon: MedalSolid
+		},
 		{
 			title: 'ICPC British Columbia Bronze',
 			date: '2024 November',
@@ -73,9 +78,7 @@
 		{
 			title: 'IYPT Physics World Cup National Finalist',
 			date: '2023 April',
-			icon: TrophySolid,
-			description:
-				'Top 15 nationwide in the CaYPT'
+			icon: TrophySolid
 		},/**
 		{
 			title: 'Ontario Math Competition Champion',
@@ -116,7 +119,7 @@
 			date: '2022 March',
 			icon: TrophySolid,
 			description:
-				"Score was CJMO Champion if I took that"
+				"Score was enough for CJMO Champion"
 		},/**
 		{
 			title: '5 on AP Calc BC',
@@ -153,17 +156,17 @@
 	</P>
 	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Work</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > C = N >>> G. You can find me on AoPS (where I rarely post) as <A
+		I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > N = C >>> G. You can find me on AoPS (where I rarely post) as <A
 			href="https://aops.com/community/user/polarity">polarity</A
-		>. In high school, I ran <A href="https://mathetal.org">Math et al</A> and was part of <A href="https://www.ontariocmc.ca/">OCMC</A>, both educational STEM initiatives.
+		>.
 	</P>
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+	<!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I did a bit of <Span>Physics Research</Span> for the
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
-	</P>
+	</P> -->
 	<!--<Hr class="my-8" height="h-px" />-->
-	<Heading tag="h3" customSize="text-2xl font-extrabold">Past Achievements</Heading>
+	<Heading tag="h2" customSize="text-3xl font-extrabold">Past Achievements</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		Most notable achievements:
 	</P>

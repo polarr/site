@@ -19,7 +19,7 @@
 
 	} from 'svelte-awesome-icons';
 
-	const aliases = ['TropicoMango', 'Mango', '1egend'];
+	const aliases = ['polarity', 'mango', 'cranberry128'];
 </script>
 
 <!-- SEO -->
@@ -82,16 +82,12 @@
 	<div class="max-w-2xl">
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I'm
-			<Span class="font-bold" gradient>Polarity</Span>, a first-year undergraduate at the University of British Columbia studying 
-			<A href="/dev"><Span underline>Computer Science</Span></A>, <A href="/research"><Span underline>Math</Span></A>, and <A href="/research"><Span>Management</Span></A>. I specialize in
-			<Span underline decorationClass="decoration-green-500 decoration-dotted">
-				Fullstack Web Development
-			</Span>
-			but also dabble in Theoretical CS, System Administration, Computer Graphics, and Artificial Intelligence. I used to participate in
+			<Span class="font-bold" gradient>Charles</Span>, a third-year undergraduate at the University of British Columbia studying 
+			<A href="/dev"><Span underline>Computer Science</Span></A>, <A href="/research"><Span underline>Math</Span></A>, and <A href="/research"><Span>Management</Span></A>. I'm highly interested in Analytic Number Theory, Theoretical Computer Science, Computer Graphics, Machine Learning, as well as Fullstack Web Development and System Administration. I used to participate in
 			Math Olympiads.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			I enjoy running, casual sports, music, games, and reading in my free time.
+			I enjoy running, guitar, reading, and playing Tetris in my free time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
 		<!--

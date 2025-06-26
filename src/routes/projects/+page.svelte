@@ -22,6 +22,10 @@
 					name: 'SvelteKit',
 					color: 'red'
 				},
+                {
+					name: 'React',
+					color: 'red'
+				},
 				{
 					name: 'Tailwind',
 					color: 'red'
@@ -68,9 +72,9 @@
 				}
 			]
 		},
-		{
+        {
 			title: 'CERXA',
-			subtitle: 'Computer Graphics Engine',
+			subtitle: 'Web Computer Graphics Engine',
 			description: 'Custom P5.js and WebGL Graphics Engines implemented from scratch in GLSL, supporting Rasterization and Volumetric Raytracing. Features ambient, diffuse and specular lighting, hard shadows, a dynamic camera system and support for distance-estimated fractal rendering.',
 			imageSrc: '/projects/cerxa.png',
 			link: 'https://cerxa.polarity.sh',
@@ -104,6 +108,90 @@
 				},
 				{
 					name: 'Javascript',
+					color: 'green'
+				}
+			]
+		},
+        {
+			title: 'UBC ICPC',
+			subtitle: 'Official University ICPC Site',
+            //evelop club website using Cloudflare, SvelteKit, TailwindCSS, ShadCN UI. Self-host club infrastructure with Docker and populate dynamic content in SQLite database
+			description: 'Professional website for the official University of British Columbia ICPC competitive programming team and club with custom modern UI elements and interactivity. The backend features a dynamic authenticated CMS with backup redudancy, built on SQLite and self-hosted with Docker.',
+			imageSrc: '/projects/ubc-icpc.png',
+			link: 'https://icpc.cs.ubc.ca',
+			links: [
+				{
+					icon: GithubBrand,
+					label: 'View on GitHub',
+					href: 'https://github.com/polarr/ubc-icpc'
+				}
+			],
+			technologies: [
+				{
+					name: 'SvelteKit',
+					color: 'red'
+				},
+                {
+					name: 'Figma',
+					color: 'red'
+				},
+				{
+					name: 'Tailwind',
+					color: 'red'
+				},
+                {
+					name: 'SQLite',
+					color: 'purple'
+				},
+                {
+					name: 'Docker',
+					color: 'purple'
+				},
+                {
+					name: 'Linux',
+					color: 'purple'
+				},
+                {
+                    name: 'Cloudflare',
+                    color: 'yellow'
+                },
+                {
+					name: 'Node',
+					color: 'green'
+				},
+				{
+					name: 'Typescript',
+					color: 'green'
+				}
+			]
+		},
+		{
+			title: 'Sap',
+			subtitle: 'Java Pathtracing Engine',
+			description: 'Highly modular and robust Java raytracing engine specifically built for educational purposes. It is written "completely mathematically from scratch" and aims to provide a clear and extensible foundation for experimenting with a wide range of common rendering techniques and features. Includes custom geometry, lighting models, a dynamic camera system, hardware acceleration, and data persistence.',
+			imageSrc: '/projects/sap.png',
+			links: [
+				{
+					icon: GithubBrand,
+					label: 'View on GitHub',
+					href: 'https://github.com/polarr/sap'
+				}
+			],
+			technologies: [
+				{
+					name: 'Java Swing',
+					color: 'red'
+				},
+				{
+					name: 'JUnit',
+					color: 'yellow'
+				},
+				{
+					name: 'Maven',
+					color: 'green'
+				},
+				{
+					name: 'Java',
 					color: 'green'
 				}
 			]
@@ -299,7 +387,7 @@
 		Featured Projects
 	</Heading>
 	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">
-		I'm currently working on <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads.
+		One thing I'm currently working on with some collaborators is <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads. I'm also looking into Machine Learning models and Computer Graphics rendering techniques.
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
 		See my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.

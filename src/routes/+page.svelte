@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<meta property="og:title" content="Portfolio" />
-	<meta property="og:description" content="Polarity's personal website" />
+	<meta property="og:title" content="Home" />
+	<meta property="og:description" content="Charles's personal website" />
 	<meta property="og:type" content="profile" />
 	<meta property="profile:first_name" content="Charles" />
 	<meta property="profile:last_name" content="Ran" />
@@ -15,7 +15,7 @@
 
 <div class="my-auto text-center min-h-full">
 	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-6xl">
-		<Span gradient>Polarity</Span>
+		<Span gradient>Charles Ran</Span>
 	</Heading>
 	<div class="flex space-x-6 mb-4 justify-center">
 		<A href="/redirect/github" color="text-gray-400 hover:text-gray-900">
