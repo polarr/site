@@ -42,6 +42,7 @@ declare global {
 
 		declare interface Project {
 			title: string;
+            date?: string;
 			subtitle?: string;
 			link?: string;
 			description: string;

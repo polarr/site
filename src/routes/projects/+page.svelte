@@ -7,13 +7,14 @@
 		{
 			title: 'Virtual Olympiad',
 			subtitle: 'Science Olympiad Platform & APIs',
-			description: 'Hosted platforms, APIs and tools for Science Olympiads. VODB maintains a massive schemaful database of indexed contest problems, fully categorized. VOJ hosts a community platform and an online judge. Arena allows users to create public/private multiplayer contest lobbies with computer-generated problemsets to compete with friends. Rounds are given extensive customizability in format (normal, teams, relay), time controls, difficulty, and more.',
+            date: '2023-Present',
+			description: 'Hosted platforms, APIs and tools for Science Olympiads. VODB maintains a massive schemaful database of indexed contest problems, fully categorized. VOJ hosts a community platform and an online judge. Arena allows users to compete in public/private realtime multiplayer lobbies with computer-generated contest problemsets.',
 			imageSrc: '/projects/voly.png',
 			link: "https://volympiad.org",
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on Github',
+					label: 'Source Code',
 					href: 'https://github.com/virtual-olympiad/'
 				}
 			],
@@ -75,13 +76,14 @@
         {
 			title: 'CERXA',
 			subtitle: 'Web Computer Graphics Engine',
+            date: '2021-Present',
 			description: 'Custom P5.js and WebGL Graphics Engines implemented from scratch in GLSL, supporting Rasterization and Volumetric Raytracing. Features ambient, diffuse and specular lighting, hard shadows, a dynamic camera system and support for distance-estimated fractal rendering.',
 			imageSrc: '/projects/cerxa.png',
 			link: 'https://cerxa.polarity.sh',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/cerxa'
 				}
 			],
@@ -115,6 +117,7 @@
         {
 			title: 'UBC ICPC',
 			subtitle: 'Official University ICPC Site',
+            date: '2024-Present',
             //evelop club website using Cloudflare, SvelteKit, TailwindCSS, ShadCN UI. Self-host club infrastructure with Docker and populate dynamic content in SQLite database
 			description: 'Professional website for the official University of British Columbia ICPC competitive programming team and club with custom modern UI elements and interactivity. The backend features a dynamic authenticated CMS with backup redudancy, built on SQLite and self-hosted with Docker.',
 			imageSrc: '/projects/ubc-icpc.png',
@@ -122,7 +125,7 @@
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/ubc-icpc'
 				}
 			],
@@ -168,12 +171,13 @@
 		{
 			title: 'Sap',
 			subtitle: 'Java Pathtracing Engine',
+            date: '2025-Present',
 			description: 'Highly modular and robust Java raytracing engine specifically built for educational purposes. It is written "completely mathematically from scratch" and aims to provide a clear and extensible foundation for experimenting with a wide range of common rendering techniques and features. Includes custom geometry, lighting models, a dynamic camera system, hardware acceleration, and data persistence.',
 			imageSrc: '/projects/sap.png',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/sap'
 				}
 			],
@@ -215,12 +219,13 @@
 		{
 			title: 'BrawlTrack',
 			subtitle: 'Statistics Tracker',
+            date: '2021-2022',
 			description: 'Progression statistics tracker for the mobile game Brawl Stars. Server periodically fetches and stores Brawl Stars public API data in MongoDB, calculating progression changes to be displayed in a custom game-esque UI. Used by 10+ esports organizations with over 4000 total players.',
 			imageSrc: '/projects/brawltrack.png',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/brawltrack'
 				}
 			],
@@ -271,12 +276,13 @@
 		{
 			title: 'Aesthete',
 			subtitle: 'Batteries-Included Math Parser & API Wrapper',
+            date: '2023-Present',
 			description: 'Typescript HTML parser module supporting TeX in the web, allowing conversion to an intermediate HTML/TeX-like language for rich full-text search and rendering to KaTeX/MathML. Also an API wrapper for the Art of Problem Solving Website.',
 			imageSrc: '/projects/aesthete.png',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/virtual-olympiad/aesthete'
 				}
 			],
@@ -306,12 +312,14 @@
 		{
 			title: 'Minesweeper Battles',
 			subtitle: 'Multiplayer Online Game',
+            date: '2021',
 			description: 'Online minesweeper with a multiplayer twist. Host public/private games and face off in live minesweeper, solving the same board side-by-side where you can partially observe your opponents\' progress. Clicking a bomb will get penalized with a time freeze for a short duration.',
 			imageSrc: '/projects/minesweeper.png',
+            link: 'https://minesweeper.polarity.sh',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/minesweeper-battles'
 				}
 			],
@@ -349,12 +357,13 @@
 		{
 			title: 'Vires',
 			subtitle: 'Fractal Analysis Software',
+            date: '2023',
 			description: 'Image processing pipeline and algorithm suite for fractal analysis. Developed for research purposes in the Canadian Young Physicists Tournament, Vires uses Julia and OpenCV to analyze images of real-world fractal phenomena. The pipeline can also be implemented in ImageJ.',
 			imageSrc: '/projects/vires.png',
 			links: [
 				{
 					icon: GithubBrand,
-					label: 'View on GitHub',
+					label: 'Source Code',
 					href: 'https://github.com/polarr/vires'
 				}
 			],
@@ -394,24 +403,33 @@
 	</P>
 	<Hr class="mb-8" height="h-px" />
 	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-		{#each projects as { title, subtitle = "", description, link, links, imageSrc, technologies }, i}
+		{#each projects as { title, subtitle = "", date, description, link, links, imageSrc, technologies }, i}
 			<Card size="lg" padding="md" class="max-h-min">
 				<img src={imageSrc} alt={title + ": " + subtitle} class="mb-4 h-40 object-cover" />
 				<Heading tag="h4" customSize="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-					{title} <Secondary class="ms-2">{ subtitle }</Secondary>
+					{title} 
+                    <br class="sm:hidden" />
+                    <Secondary class="sm:ms-2">{ subtitle }</Secondary>
 				</Heading>
 				<P weight="light" class="mb-auto" color="text-gray-700 dark:text-gray-300 leading-tight">
 					{@html description}
 				</P>
-				<div class="mt-3">
-					{#each technologies as { name, color = 'dark'}}
-						<Badge color={color} class="mr-1">
-							{name}
-						</Badge>
-					{/each}
-				</div>
+                <div class="mt-3">
+                    {#if date}
+                        <P weight="medium" class="text-sm font-mono" color="text-gray-500 dark:text-gray-400">
+                            {date}
+                        </P>
+                    {/if}
+                    <div>
+                        {#each technologies as { name, color = 'dark'}}
+                            <Badge color={color} class="mr-1">
+                                {name}
+                            </Badge>
+                        {/each}
+                    </div>
+                </div>
 				<Hr class="my-4" height="h-px" />
-				<div class="flex">
+				<div class="flex flex-col xs:flex-row gap-2">
 					{#each links as { icon, label, href, iconRight = false }, j}
 						<Button size="sm" {href} color="light">
 							{#if iconRight}
@@ -424,7 +442,7 @@
 						</Button>
 					{/each}
 					{#if link}
-						<Button class="ml-auto" size="sm" href={link} color="blue">
+						<Button class="xs:ml-auto" size="sm" href={link} color="blue">
 							Visit Application
 						</Button>
 					{/if}
