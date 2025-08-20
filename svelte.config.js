@@ -22,7 +22,21 @@ const config = {
                 customBlockquotes
 			],
 			rehypePlugins: [
-				rehypeKatexSvelte,
+				[rehypeKatexSvelte, { 
+                    macros: {
+                        "\\ceil": "\\left\\lceil #1 \\right\\rceil",
+                        "\\floor": "\\left\\lfloor #1 \\right\\rfloor",
+                        "\\nullspace": "\\operatorname{null}",
+                        "\\vspan": "\\operatorname{span}",
+                        "\\range": "\\operatorname{range}",
+                        "\\rank": "\\operatorname{rank}",
+                        "\\abs": "\\left\\lvert #1 \\right\\rvert",
+                        "\\norm": "\\left\\lVert #1 \\right\\rVert",
+                        "\\paren": "\\left( #1 \\right)",
+                        "\\sign": "\\operatorname{sgn}",
+                        "\\bigO": "\\mathcal{O}"
+                    }
+                }]
 			],
 			highlight: {
 				highlighter: async (code, lang = 'text') => {
