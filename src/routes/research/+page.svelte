@@ -78,7 +78,7 @@
 		{
 			title: 'IYPT Physics World Cup National Finalist',
 			date: '2023 April',
-			icon: TrophySolid
+			icon: MedalSolid
 		},/**
 		{
 			title: 'Ontario Math Competition Champion',
@@ -117,7 +117,7 @@
 		{
 			title: 'Canadian Math Olympiad Top Quartile',
 			date: '2022 March',
-			icon: TrophySolid,
+			icon: MedalSolid,
 			description:
 				"Score was enough for CJMO Champion"
 		},/**
@@ -149,14 +149,14 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		Currently studying: Analytic Number Theory and various Algebra topics.
+		I'm currently learning a wide range of mathematical interests including Analytic Number Theory. I'm enthusiastically open to undergraduate research opportunities in Number Theory or Combinatorics.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I participate in <Span underline>Competitive Programming</Span>. You can find me on <A href="/redirect/codeforces">Codeforces</A>, <A href="/redirect/dmoj">DMOJ</A> etc.
+		I participate in Competitive Programming. I am a Master on <A href="/redirect/codeforces">Codeforces</A>.
 	</P>
 	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Work</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > N = C >>> G. You can find me on AoPS (where I rarely post) as <A
+		I used to participate in <Span underline>Math Olympiads</Span> in high school. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A
 			href="https://aops.com/community/user/polarity">polarity</A
 		>.
 	</P>
