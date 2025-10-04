@@ -117,9 +117,7 @@
 		{
 			title: 'Canadian Math Olympiad Top Quartile',
 			date: '2022 March',
-			icon: MedalSolid,
-			description:
-				"Score was enough for CJMO Champion"
+			icon: MedalSolid
 		},/**
 		{
 			title: '5 on AP Calc BC',
@@ -149,12 +147,12 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently learning a wide range of mathematical interests including Analytic Number Theory. I'm enthusiastically open to undergraduate research opportunities in Number Theory or Combinatorics.
+		I'm currently learning a wide range of mathematical interests including analytic number theory and doing a little bit of undergraduate research in extremal set theory. I'm enthusiastically open to undergraduate research opportunities in Number Theory or Combinatorics.
 	</P>
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+	<Heading tag="h2" customSize="text-2xl font-extrabold">Competitions</Heading>
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I participate in Competitive Programming. I am a Master on <A href="/redirect/codeforces">Codeforces</A>.
 	</P>
-	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Work</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I used to participate in <Span underline>Math Olympiads</Span> in high school. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A
 			href="https://aops.com/community/user/polarity">polarity</A
@@ -166,9 +164,9 @@
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
 	</P> -->
 	<!--<Hr class="my-8" height="h-px" />-->
-	<Heading tag="h2" customSize="text-3xl font-extrabold">Past Achievements</Heading>
+	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Achievements</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		Most notable achievements:
+		History of most notable competition achievements:
 	</P>
 	<div id="achievements" />
     <Achievements {achievements} />

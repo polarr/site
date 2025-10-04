@@ -11,7 +11,8 @@
 		CloudArrowUpSolid,
 		CodeSolid,
 		ScrewdriverWrenchSolid,
-		ImageSolid
+		ImageSolid,
+        ChartBarSolid
 	} from 'svelte-awesome-icons';
 
 	import BadgeList from './BadgeList.svelte';
@@ -372,6 +373,41 @@
 			color: 'ED225D'
 		}
     ];
+
+    const data: App.Badge[] = [
+        {
+			name: 'OpenCV',
+			slug: 'opencv',
+			color: '5C3EE8'
+		},
+        {
+			name: 'Jupyter',
+			slug: 'jupyter',
+            loved: true,
+			color: 'F37626'
+		},
+        {
+			name: 'NumPy',
+			slug: 'numpy',
+            loved: true,
+			color: '013243'
+		},
+        {
+			name: 'Pandas',
+			slug: 'pandas',
+			color: '150458'
+		},
+        {
+			name: 'Pytorch',
+			slug: 'pytorch',
+			color: 'EE4C2C'
+		},
+        {
+			name: 'Tensorflow',
+			slug: 'tensorflow',
+			color: 'FF6F00'
+		}
+    ];
 </script>
 
 <Tabs style="underline">
@@ -382,6 +418,15 @@
         </div>
         <div class="flex flex-wrap gap-y-1 gap-x-2 w-full">
             <BadgeList badges={languages} />
+        </div>
+    </TabItem>
+    <TabItem>
+        <div slot="title" class="flex items-center gap-2">
+            <ChartBarSolid size="16" />
+            Data/ML
+        </div>
+        <div class="flex flex-wrap gap-y-1 gap-x-2 w-full">
+            <BadgeList badges={data} />
         </div>
     </TabItem>
     <TabItem>
