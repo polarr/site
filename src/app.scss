@@ -51,3 +51,7 @@ a:has(.edit-blockquote) {
         text-decoration: none;
     }
 }
+
+ol > li {
+    margin-bottom: 1rem !important;
+}

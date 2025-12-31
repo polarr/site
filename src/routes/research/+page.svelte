@@ -9,7 +9,13 @@
 		TabItem,
 		Indicator,
 		Timeline,
-		TimelineItem
+		TimelineItem,
+
+		List,
+
+		Li
+
+
 	} from 'flowbite-svelte';
 
 	import { Heading, A, P, Span, Hr } from 'flowbite-svelte';
@@ -25,17 +31,22 @@
 
 	const achievements: App.Achievement[] = [
         {
+			title: '3rd at ICPC NA West (1st in British Columbia)',
+			date: '2025 November',
+			icon: MedalSolid
+		},
+        {
 			title: 'Putnam Mathematics Competition Top 200',
 			date: '2025 January',
 			icon: MedalSolid
 		},
+		// {
+		// 	title: 'ICPC British Columbia Bronze',
+		// 	date: '2024 November',
+		// 	icon: MedalSolid
+		// },
 		{
-			title: 'ICPC British Columbia Bronze',
-			date: '2024 November',
-			icon: MedalSolid
-		},
-		{
-			title: 'COMC Champion',
+			title: 'Canadian Open Math Competition Champion',
 			date: '2024 January',
 			icon: TrophySolid
 		},/**
@@ -47,11 +58,11 @@
 				'Canadian MOP'
 		},*/
 		{
-			title: 'CSMC Champion',
+			title: 'Canadian Senior Math Competition Champion',
 			date: '2023 December',
 			icon: TrophySolid,
-			description:
-				'Sillied this award the year before'
+			// description:
+			// 	'Sillied this award the year before'
 		},/**
 		{
 			title: 'AMC12 130.5',
@@ -74,12 +85,12 @@
 			title: '5 on Physics C: Mechanics',
 			date: '2023 May',
 			icon: CheckSolid
-		},**/
+		},
 		{
 			title: 'IYPT Physics World Cup National Finalist',
 			date: '2023 April',
 			icon: MedalSolid
-		},/**
+		},
 		{
 			title: 'Ontario Math Competition Champion',
 			date: '2023 March',
@@ -113,12 +124,12 @@
 			title: 'CMS Summer Olympiad Training Camp Invitee',
 			date: '2022 August',
 			icon: TrophySolid
-		},*/
+		},
 		{
 			title: 'Canadian Math Olympiad Top Quartile',
 			date: '2022 March',
 			icon: MedalSolid
-		},/**
+		},
 		{
 			title: '5 on AP Calc BC',
 			date: '2021 May',
@@ -147,14 +158,40 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently learning a wide range of mathematical interests including analytic number theory and doing a little bit of undergraduate research in extremal set theory. I'm enthusiastically open to undergraduate research opportunities in Number Theory or Combinatorics.
+		I'm currently learning a range of undergraduate mathematics and doing a little bit of research in extremal set theory. I would be gladly open to undergraduate research opportunities in Number Theory or Combinatorics.
+	</P>
+    <Heading tag="h2" customSize="text-2xl font-extrabold">Coursework</Heading>
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		I currently have third year standing. Here are some relevant courses I've taken at UBC:
+	</P>
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		<List class="list-disc">
+            <Li>Multivariate Calculus, ODEs, and Linear Algebra</Li>
+            <Li>Group Theory, Ring and Module Theory</Li>
+            <Li>Real Analysis and Hausdorff Topologies</Li>
+            <Li>Complex Analysis</Li>
+            <Li>Elementary Number Theory</Li>
+            <Li>Graph Theory</Li>
+            <Li>DSA</Li>
+            <Li>Advanced Machine Learning</Li>
+            <Li>Theory of Computation</Li>
+        </List>
+	</P>
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		As well as some interests of mine which I have briefly explored on my own:
+	</P>
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		<List class="list-disc">
+            <Li>Sieve Theory</Li>
+            <Li>Additive Combinatorics</Li>
+        </List>
 	</P>
 	<Heading tag="h2" customSize="text-2xl font-extrabold">Competitions</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I participate in Competitive Programming. I am a Master on <A href="/redirect/codeforces">Codeforces</A>.
+		I participate in <Span underline>Competitive Programming</Span>. I am a Master on <A href="/redirect/codeforces">Codeforces</A>, some <A href="https://clist.by/coder/polarity/">other platforms</A>, and a member of the <A href="https://icpc.cs.ubc.ca/">UBC ICPC team</A>.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I used to participate in <Span underline>Math Olympiads</Span> in high school. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A
+		In high school, I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A
 			href="https://aops.com/community/user/polarity">polarity</A
 		>.
 	</P>
@@ -164,9 +201,8 @@
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
 	</P> -->
 	<!--<Hr class="my-8" height="h-px" />-->
-	<Heading tag="h2" customSize="text-2xl font-extrabold">Past Achievements</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		History of most notable competition achievements:
+		My most notable competition achievements:
 	</P>
 	<div id="achievements" />
     <Achievements {achievements} />

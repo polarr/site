@@ -396,10 +396,10 @@
 		Featured Projects
 	</Heading>
 	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">
-		One thing I'm currently working on with some collaborators is <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads. I'm also looking into Machine Learning models and Computer Graphics rendering techniques.
+		I no longer develop a lot of software apps. Currently I'm slowly working on <A href="https://volympiad.org">Virtual Olympiad</A> with some collaborators.
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
-		See my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.
+		See my <A href="/dev">Dev</A> page for my other CS interests and my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.
 	</P>
 	<Hr class="mb-8" height="h-px" />
 	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">

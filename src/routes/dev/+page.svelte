@@ -25,17 +25,13 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Software</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently exploring interests in Theoretical CS, Machine Learning, and Computer Graphics.
+		I'm currently exploring interests in <Span>Machine Learning</Span> and <Span>Computer Graphics</Span>.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I have many years of experience with <Span underline>Fullstack Web Development</Span>, 
-		<span class="font-normal">
-			from frontend—UI, web frameworks, rendering patterns, design—to APIs, servers, auth, realtime, CMS,
-			many DB paradigms, infrastructure design and more.
-		</span>
+		I also have many years of experience with <Span underline>Fullstack Web Development</Span>: web frameworks, UI design, APIs, servers, auth, realtime, many DB paradigms, infrastructure design and more.
 	</P>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I participate in Competitive Programming. I am a Master on <A href="/redirect/codeforces">Codeforces</A>.
+		I participate in Competitive Programming. I am a Master on <A href="/redirect/codeforces">Codeforces</A>, some <A href="https://clist.by/coder/polarity/">other platforms</A>, and a member of the <A href="https://icpc.cs.ubc.ca/">UBC ICPC team</A>.
 	</P>
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Technologies</Heading>
@@ -47,7 +43,7 @@
 	<Hr class="my-8" height="h-px" />
 	<Heading tag="h4" customSize="text-4xl font-extrabold">Projects</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently working on <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads.
+		For fun, I have developed a variety of software projects. I'm currently working on <A href="https://volympiad.org">Virtual Olympiad</A>: Hosted platforms, APIs and tools for Science Olympiads.
 		<A
 			href="/projects"
 			textColor="text-blue-600 dark:text-blue-500"
