@@ -383,7 +383,6 @@
         {
 			name: 'Jupyter',
 			slug: 'jupyter',
-            loved: true,
 			color: 'F37626'
 		},
         {
@@ -400,12 +399,23 @@
         {
 			name: 'Pytorch',
 			slug: 'pytorch',
+            loved: true,
 			color: 'EE4C2C'
 		},
         {
 			name: 'Tensorflow',
 			slug: 'tensorflow',
 			color: 'FF6F00'
+		},
+        {
+			name: 'sklearn',
+			slug: 'scikit-learn',
+			color: 'F7931E'
+		},
+        {
+			name: 'Optuna',
+			slug: 'optuna',
+			color: '002C76'
 		}
     ];
 </script>

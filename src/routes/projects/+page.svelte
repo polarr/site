@@ -396,10 +396,12 @@
 		Featured Projects
 	</Heading>
 	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">
-		I no longer develop a lot of software apps. Currently I'm slowly working on <A href="https://volympiad.org">Virtual Olympiad</A> with some collaborators.
+		I no longer develop a lot of software apps. 
+        
+        <!-- Currently I'm slowly working on <A href="https://volympiad.org">Virtual Olympiad</A> with some collaborators. -->
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">
-		See my <A href="/dev">Dev</A> page for my other CS interests and my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.
+		See my <A href="/redirect/github"><Span underline>Github Page</Span></A> for all public projects.
 	</P>
 	<Hr class="mb-8" height="h-px" />
 	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">

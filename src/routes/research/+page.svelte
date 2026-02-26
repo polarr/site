@@ -31,12 +31,12 @@
 
 	const achievements: App.Achievement[] = [
         {
-			title: '3rd at ICPC NA West (1st in British Columbia)',
+			title: '3rd Place, ICPC NA West (1st in British Columbia)',
 			date: '2025 November',
 			icon: MedalSolid
 		},
         {
-			title: 'Putnam Mathematics Competition Top 200',
+			title: 'Putnam Competition Top 200',
 			date: '2025 January',
 			icon: MedalSolid
 		},
@@ -158,26 +158,22 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
 	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I'm currently learning a range of undergraduate mathematics and doing a little bit of research in extremal set theory. I would be gladly open to undergraduate research opportunities in Number Theory or Combinatorics.
+		I am broadly interested in combinatorics and number theory.
 	</P>
     <Heading tag="h2" customSize="text-2xl font-extrabold">Coursework</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I currently have third year standing. Here are some relevant courses I've taken at UBC:
-	</P>
-    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		<List class="list-disc">
-            <Li>Multivariate Calculus, ODEs, and Linear Algebra</Li>
-            <Li>Group Theory, Ring and Module Theory</Li>
-            <Li>Real Analysis and Hausdorff Topologies</Li>
-            <Li>Complex Analysis</Li>
-            <Li>Elementary Number Theory</Li>
+            <Li>Multivariate Calculus, DEs, Linear Algebra</Li>
+            <Li>Group, Ring, Module Theory</Li>
+            <Li>Real, Complex Analysis</Li>
+            <Li>Number Theory</Li>
             <Li>Graph Theory</Li>
             <Li>DSA</Li>
             <Li>Advanced Machine Learning</Li>
             <Li>Theory of Computation</Li>
         </List>
 	</P>
-    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+    <!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		As well as some interests of mine which I have briefly explored on my own:
 	</P>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
@@ -185,25 +181,25 @@
             <Li>Sieve Theory</Li>
             <Li>Additive Combinatorics</Li>
         </List>
-	</P>
-	<Heading tag="h2" customSize="text-2xl font-extrabold">Competitions</Heading>
+	</P> -->
+	<Heading tag="h2" customSize="text-xl font-extrabold">Competitions</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I participate in <Span underline>Competitive Programming</Span>. I am a Master on <A href="/redirect/codeforces">Codeforces</A>, some <A href="https://clist.by/coder/polarity/">other platforms</A>, and a member of the <A href="https://icpc.cs.ubc.ca/">UBC ICPC team</A>.
 	</P>
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+	<!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		In high school, I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A
 			href="https://aops.com/community/user/polarity">polarity</A
 		>.
-	</P>
+	</P> -->
 	<!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		I did a bit of <Span>Physics Research</Span> for the
 		<A href="https://www.caypt.org/">Canadian Young Physicists Tournament</A>. My focus was on fluid
 		dynamics, researching phenomena relating to fractals patterns in alcohol-ink droplets.
 	</P> -->
 	<!--<Hr class="my-8" height="h-px" />-->
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+	<!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		My most notable competition achievements:
-	</P>
+	</P> -->
 	<div id="achievements" />
     <Achievements {achievements} />
 </div>

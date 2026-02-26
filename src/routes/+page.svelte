@@ -34,9 +34,9 @@
 		<Tooltip arrow={false}>
 			@tropicomango
 		</Tooltip>
-		<A href="/redirect/steam" color="text-gray-400 hover:text-gray-900">
+		<!-- <A href="/redirect/steam" color="text-gray-400 hover:text-gray-900">
 			<SteamBrand size="24"/>
-		</A>
+		</A> -->
 		<A href="/redirect/linkedin" color="text-gray-400 hover:text-gray-900">
 			<LinkedinBrand size="24"/>
 		</A>

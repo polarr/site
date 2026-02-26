@@ -78,9 +78,9 @@
 						</Tooltip>
 					</FooterIcon>
 				</span>
-				<FooterIcon href="/redirect/steam" class="text-gray-400 hover:text-gray-900">
+				<!-- <FooterIcon href="/redirect/steam" class="text-gray-400 hover:text-gray-900">
 					<SteamBrand size="20"/>
-				</FooterIcon>
+				</FooterIcon> -->
 				<FooterIcon href="/redirect/linkedin" class="text-gray-400 hover:text-gray-900">
 					<LinkedinBrand size="20"/>
 				</FooterIcon>

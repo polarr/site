@@ -46,7 +46,7 @@
 					{/each}
 				</Tooltip>
 			</div>
-			<div class="text-sm text-gray-500 dark:text-gray-400">@polarity</div>
+			<div class="text-sm text-gray-500 dark:text-gray-400">@cran</div>
 		</div>
 	</div>
 
@@ -54,23 +54,23 @@
 		<Button href="/redirect/github">
 			<GithubBrand size="15" />
 		</Button>
+		<Button href="/redirect/youtube">
+			<YoutubeBrand size="15" />
+		</Button>
 		<Button on:click={() => copyText('tropicomango')}>
 			<DiscordBrand size="15" />
 		</Button>
 		<Tooltip>
 			@tropicomango
 		</Tooltip>
-		<Button href="/redirect/youtube">
-			<YoutubeBrand size="15" />
-		</Button>
 		<!--
 		<Button href="/redirect/instagram">
 			<InstagramBrand size="15" />
 		</Button>
 		-->
-		<Button href="/redirect/steam">
+		<!-- <Button href="/redirect/steam">
 			<SteamBrand size="15" />
-		</Button>
+		</Button> -->
 		<Button href="/redirect/linkedin">
 			<LinkedinBrand size="15" />
 		</Button>
@@ -81,15 +81,12 @@
 
 	<div class="max-w-2xl">
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			Hey! I'm
+			Hi! I'm
 			<Span class="font-bold" gradient>Charles</Span>, a second-year undergraduate at the University of British Columbia studying 
-			<A href="/dev"><Span underline>Computer Science</Span></A>, <A href="/research"><Span underline>Math</Span></A>, and <Span>Management</Span>. I'm interested in Analytic Number Theory, Machine Learning, Algorithms, as well as Full-stack Web Development. 
-            
-            <!-- I used to participate in
-			Math Olympiads. -->
+			<A href="/dev"><Span underline>Computer Science</Span></A> and <A href="/research"><Span underline>Math</Span></A>. I'm broadly interested in Combinatorics, Number Theory, Deep Learning, Algorithms, and Software Development. 
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
-			I enjoy running, photography, guitar, reading, and playing Tetris in my free time.
+			I enjoy running, reading, and playing Tetris in my free time.
 		</P>
 		<Hr class="my-4 mx-auto md:my-10" width="w-48" height="h-1" />
 		<!--
