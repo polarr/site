@@ -31,13 +31,18 @@
 
 	const achievements: App.Achievement[] = [
         {
-			title: '3rd Place, ICPC NA West (1st in British Columbia)',
+			title: '11th Place, ICPC NA Championship',
+			date: '2026 March',
+			icon: MedalSolid
+		},
+        {
+			title: '3rd Place, ICPC NA West Regional',
 			date: '2025 November',
 			icon: MedalSolid
 		},
         {
 			title: 'Putnam Competition Top 200',
-			date: '2025 January',
+			date: '2024 December',
 			icon: MedalSolid
 		},
 		// {
@@ -47,7 +52,7 @@
 		// },
 		{
 			title: 'Canadian Open Math Competition Champion',
-			date: '2024 January',
+			date: '2023 October',
 			icon: TrophySolid
 		},/**
 		{
@@ -56,14 +61,14 @@
 			icon: TrophySolid,
 			description:
 				'Canadian MOP'
-		},*/
+		},
 		{
 			title: 'Canadian Senior Math Competition Champion',
 			date: '2023 December',
 			icon: TrophySolid,
 			// description:
 			// 	'Sillied this award the year before'
-		},/**
+		},
 		{
 			title: 'AMC12 130.5',
 			date: '2023 November',
@@ -152,13 +157,13 @@
 <!-- SEO -->
 <svelte:head>
 	<meta property="og:title" content="Research" />
-	<meta property="og:description" content="Polarity's academic interests" />
+	<meta property="og:description" content="Charles' research interests" />
 </svelte:head>
 
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
-	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I am broadly interested in combinatorics and number theory.
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		I am broadly interested in <Span>Deep Learning</Span> and <Span>Algorithm Design</Span>. In pure mathematics I am also interested in combinatorics and number theory.
 	</P>
     <Heading tag="h2" customSize="text-2xl font-extrabold">Coursework</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
@@ -183,8 +188,8 @@
         </List>
 	</P> -->
 	<Heading tag="h2" customSize="text-xl font-extrabold">Competitions</Heading>
-    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I participate in <Span underline>Competitive Programming</Span>. I am a Master on <A href="/redirect/codeforces">Codeforces</A>, some <A href="https://clist.by/coder/polarity/">other platforms</A>, and a member of the <A href="https://icpc.cs.ubc.ca/">UBC ICPC team</A>.
+	<P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+		I participate in Competitive Programming. I am a ICPC World Finalist for the <A href="https://icpc.cs.ubc.ca/team#2026">UBC team</A>, and you can find me on <A href="/redirect/codeforces">Codeforces</A> and some <A href="https://clist.by/coder/polarity/">other platforms</A>.
 	</P>
 	<!-- <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		In high school, I used to participate in <Span underline>Math Olympiads</Span>. My subtopic preference was A > N = C >>> G. I had an AoPS account under <A

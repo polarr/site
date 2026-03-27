@@ -388,16 +388,14 @@
 <!-- SEO -->
 <svelte:head>
 	<meta property="og:title" content="Projects" />
-	<meta property="og:description" content="Polarity's featured projects" />
+	<meta property="og:description" content="Charles' featured projects" />
 </svelte:head>
 
 <div>
 	<Heading tag="h3" class="my-4">
 		Featured Projects
 	</Heading>
-	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">
-		I no longer develop a lot of software apps. 
-        
+	<P class="mb-4" weight="light" color="text-gray-500 dark:text-gray-400 max-w-2xl">        
         <!-- Currently I'm slowly working on <A href="https://volympiad.org">Virtual Olympiad</A> with some collaborators. -->
 	</P>
 	<P weight="light" color="text-gray-500 dark:text-gray-400">

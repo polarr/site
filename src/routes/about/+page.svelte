@@ -25,13 +25,11 @@
 <!-- SEO -->
 <svelte:head>
 	<meta property="og:title" content="About" />
-	<meta property="og:description" content="About polarity" />
+	<meta property="og:description" content="About Charles" />
 	<meta property="og:type" content="profile" />
 	<meta property="profile:first_name" content="Charles" />
 	<meta property="profile:last_name" content="Ran" />
-	<meta property="profile:username" content="polarity" />
 </svelte:head>
-
 <div class="my-auto flex flex-col justify-center items-center">
 	<div class="flex items-center space-x-4">
 		<Avatar src="/mango_v3.svg" rounded size="lg" />
@@ -83,7 +81,7 @@
 		<P class="my-4" align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			Hi! I'm
 			<Span class="font-bold" gradient>Charles</Span>, a second-year undergraduate at the University of British Columbia studying 
-			<A href="/dev"><Span underline>Computer Science</Span></A> and <A href="/research"><Span underline>Math</Span></A>. I'm broadly interested in Combinatorics, Number Theory, Deep Learning, Algorithms, and Software Development. 
+			<A href="/dev"><Span underline>Computer Science</Span></A> and <A href="/research"><Span underline>Math</Span></A>. I'm broadly interested in Deep Learning, Algorithms, Combinatorics, and Number Theory.
 		</P>
 		<P align="center" weight="light" color="text-gray-500 dark:text-gray-400">
 			I enjoy running, reading, and playing Tetris in my free time.
