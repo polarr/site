@@ -47,6 +47,7 @@
 			<NavLi href="/research">Research</NavLi>
 			<NavLi href="/projects">Projects</NavLi>
 			<NavLi href="/blog">Blog</NavLi>
+        	<NavLi href="/redirect/gallery">Gallery</NavLi>
 			<NavLi href="/redirect/resume">Resume</NavLi>
 		</NavUl>
 	</Navbar>
