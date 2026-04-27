@@ -19,7 +19,7 @@
 
 	} from 'svelte-awesome-icons';
 
-	const aliases = ['polarity', 'mango', 'cranberry128'];
+	const aliases = ['cranberry128', 'polarity', 'mango'];
 </script>
 
 <!-- SEO -->

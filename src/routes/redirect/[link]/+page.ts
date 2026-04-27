@@ -1,12 +1,12 @@
 import { error, redirect } from '@sveltejs/kit';
 
 const redirectMap: {[key: string]: string} = {
-    'github': 'https://github.com/polarr',
+    'github': 'https://github.com/rancharles',
     'youtube': 'https://www.youtube.com/channel/UClZN6f71XImxoznqJ4jPknw',
     'instagram': 'https://www.instagram.com/rancharles/',
     'discord': 'discord://-/users/365886855469727745',
     'steam': 'https://steamcommunity.com/id/cranberry128/',
-    'email': 'mailto:polarity@polarity.sh',
+    'email': 'mailto:charles.ran9@gmail.com',
     'shadertoy': 'https://www.shadertoy.com/user/IAmLegend',
     'resume': '/resume.pdf',
     'dmoj': 'https://dmoj.ca/user/polarity',

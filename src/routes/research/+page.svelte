@@ -163,17 +163,21 @@
 <div class="max-w-2xl py-8">
 	<Heading tag="h1" customSize="text-5xl font-extrabold">Research</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
-		I am broadly interested in <Span>Deep Learning</Span> and <Span>Algorithm Design</Span>. In pure mathematics I am also interested in combinatorics and number theory.
+		I am broadly interested in <Span>Deep Learning</Span> and <Span>Algorithm Design</Span>. In pure mathematics I am also interested in Combinatorics and Number Theory.
+	</P>
+
+    <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
+        Currently I am doing some research in extremal combinatorics, on Erdos-Ko-Rado type problems and generalizations to finite vector spaces.
 	</P>
     <Heading tag="h2" customSize="text-2xl font-extrabold">Coursework</Heading>
     <P class="my-4" weight="light" color="text-gray-500 dark:text-gray-400">
 		<List class="list-disc">
-            <Li>Multivariate Calculus, DEs, Linear Algebra</Li>
-            <Li>Group, Ring, Module Theory</Li>
+            <Li>Multivariate Calculus, Differential Equations</Li>
+            <Li>Linear, Group, Ring, Module Algebra</Li>
             <Li>Real, Complex Analysis</Li>
             <Li>Number Theory</Li>
             <Li>Graph Theory</Li>
-            <Li>DSA</Li>
+            <Li>Algorithm Design and Data Structures</Li>
             <Li>Advanced Machine Learning</Li>
             <Li>Theory of Computation</Li>
         </List>
