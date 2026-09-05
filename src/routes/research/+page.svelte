@@ -27,7 +27,7 @@
 
 	<h2 class="text-xl font-serif font-medium text-foreground mb-3">Machine Learning</h2>
 	<p class="my-4 text-[0.925rem] text-muted-foreground leading-relaxed">
-        I'm broadly interested in <span class="text-foreground font-medium">Deep Learning</span>, particularly foundational architecture research and generative modelling. Currently, I'm working on deep learning architectures for <span class="text-foreground font-medium">few-shot reasoning</span> and <span class="text-foreground font-medium">test-time adaptation</span>.
+        I'm broadly interested in <span class="text-foreground font-medium">Deep Learning</span>, particularly foundational architecture research and deep representation learning. Currently, I'm working on <span class="text-foreground font-medium">looped transformer architectures</span> for <span class="text-foreground font-medium">few-shot reasoning</span> and <span class="text-foreground font-medium">test-time adaptation</span>.
 	</p>
 
     <Separator class="my-6" />
@@ -40,9 +40,9 @@
     <Separator class="my-6" />
 
 	<h2 class="text-xl font-serif font-medium text-foreground mb-3">Publications</h2>
-	<p class="my-4 text-muted-foreground leading-relaxed text-sm italic">None yet... hopefully one day!</p>
+	<p class="my-4 text-muted-foreground leading-relaxed text-sm italic">Coming very soon! ;)</p>
 
-    <Separator class="my-6" />
+    <!-- <Separator class="my-6" />
 
 	<p class="text-xs text-muted-foreground mb-2 font-medium uppercase tracking-wide">Official Coursework</p>
 	<ul class="text-sm list-disc list-outside ml-5 space-y-0.5 text-muted-foreground">
@@ -55,5 +55,5 @@
 		<li>Algorithm Design and Data Structures</li>
 		<li>Advanced Machine Learning</li>
 		<li>Theory of Computation</li>
-	</ul>
+	</ul> -->
 </div>
